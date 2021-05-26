@@ -1,3 +1,21 @@
 body {
     background: lightblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 15vh;
+    background: lightseagreen;
+}
+
+main {
+    height: 75vh;
+    background: lightskyblue;
+}
+
+footer {
+    height: 10vh;
+    background: lightsalmon;
 }
