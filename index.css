@@ -8,16 +8,35 @@ body {
 header {
     height: 15vh;
     background: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 main {
     height: 75vh;
     background: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer {
     height: 10vh;
     background: lightsteelblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 header img {

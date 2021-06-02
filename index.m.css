@@ -19,3 +19,11 @@ footer {
     height: 10vh;
     background: lightsalmon;
 }
+
+header img {
+    height: 50px;
+}
+
+main img {
+    width: 100%;
+}
