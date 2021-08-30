@@ -28,6 +28,7 @@ header section {
 
 main {
     height: 100%;
+    padding: 20px 0;
     background: lightseagreen;
     display: flex;
     flex-direction: column;
