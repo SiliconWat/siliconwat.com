@@ -60,6 +60,10 @@ p {
     font-size: 2rem;
 }
 
+ul {
+    font-size: 1.8rem;
+}
+
 a, select, small, strong {
     font-size: 1.5rem;
 }

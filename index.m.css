@@ -66,6 +66,12 @@ p {
     font-size: 2rem;
 }
 
+ul {
+    font-size: 1.3rem;
+    text-align: left;
+    padding-right: 5px;
+}
+
 a, select, small, strong {
     font-size: 1.1rem;
 }
