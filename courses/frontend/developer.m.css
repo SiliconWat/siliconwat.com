@@ -28,14 +28,10 @@ header section {
 }
 
 main {
-    height: 100%;
-    padding-bottom: 30px;
+    height: 65vh;
     background: lightseagreen;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     text-align: center;
+    overflow: scroll;
 }
 
 footer {
@@ -63,11 +59,31 @@ a, button, small, strong {
     font-size: 1.1rem;
 }
 
+button, small, strong {
+    font-size: 1.1rem;
+}
+
+header a {
+    font-size: 1.1rem;
+}
+
 main section {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+main nav {
+    margin: 20px;
+    font-size: 1.1rem;
 }
 
 h2  {
+    margin: 10px 0 0;
+}
+
+h2 a {
     font-size: 1.5rem;
 }
 
@@ -75,8 +91,28 @@ p {
     font-size: 1.1rem;
 }
 
-ul {
+aside {
     text-align: center;
+    width: 80%;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+aside p {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+article {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
     list-style: none;
     margin: 0;
     padding: 0;

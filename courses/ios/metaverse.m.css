@@ -28,14 +28,14 @@ header section {
 }
 
 main {
-    height: 100%;
-    padding-bottom: 30px;
+    height: 65vh;
     background: lightseagreen;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    overflow: scroll;
 }
 
 footer {
