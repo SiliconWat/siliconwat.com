@@ -31,7 +31,8 @@ main {
     height: 75vh;
     background: lightseagreen;
     text-align: center;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 footer {
