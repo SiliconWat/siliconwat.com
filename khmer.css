@@ -78,3 +78,7 @@ li {
     text-align: center;
     padding: 15px;
 }
+
+nav a {
+    margin: 5px;
+}

@@ -84,3 +84,7 @@ li {
 li a {
     font-size: 1.8rem;
 }
+
+nav a {
+    margin: 5px;
+}
