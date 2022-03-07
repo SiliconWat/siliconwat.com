@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    height: 25vh;
+    height: 30vh;
     background: lightskyblue;
     display: flex;
     flex-direction: column;
