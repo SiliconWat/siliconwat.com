@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    height: 20vh;
+    height: 25vh;
     background: lightskyblue;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ header section {
 }
 
 main {
-    height: 65vh;
+    height: 60vh;
     background: lightseagreen;
     text-align: center;
     overflow: scroll;
