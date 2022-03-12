@@ -29,12 +29,8 @@ header section {
 
 main {
     height: 100%;
-    padding-bottom: 30px;
+    padding: 5px;
     background: lightseagreen;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     text-align: center;
 }
 
@@ -57,6 +53,11 @@ header img {
 
 h1 {
     font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: whitesmoke;
 }
 
 ul {
@@ -83,4 +84,8 @@ li {
     align-items: center;
     text-align: center;
     padding: 15px;
+}
+
+main nav {
+    margin-top: 40px;
 }

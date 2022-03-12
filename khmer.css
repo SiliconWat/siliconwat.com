@@ -53,6 +53,12 @@ h1 {
     font-size: 3rem;
 }
 
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: whitesmoke;
+}
+
 ul {
     font-size: 1.8rem;
     display: flex;
