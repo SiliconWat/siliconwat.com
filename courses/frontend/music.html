@@ -26,7 +26,7 @@
         </header>
         <main>
             <section>
-                <h2><a href="https://medium.com/siliconwat/a-complete-frontend-developer-textbook-for-beginners-3be48c1f07?sk=351a90e15ab63ee815dda3f3a395f843">A Complete Frontend Developer Textbook for Beginners</a></h2>
+                <h2><a href="https://medium.com/siliconwat/a-complete-frontend-developer-textbook-for-beginners-3be48c1f07?sk=351a90e15ab63ee815dda3f3a395f843">A Complete Frontend Developer Textbook for Beginners<br/>(2023 Edition)</a></h2>
                 <p><em>Udemy video course in progress</em></p>
             </section>
             <section>
@@ -35,38 +35,369 @@
                     <p>If you like Medium and use my <a href="https://medium.com/@thonly/membership">referral link</a> to join, I will give you a special coupon to get ALL my <a href="https://www.udemy.com/user/thonly/">Udemy courses</a> for <strong>90% OFF</strong> for Life!</p>
                     <p>If you’re already a Medium member or don't like it, please consider donating to <a href="https://github.com/sponsors/SiliconWat">@SiliconWat</a> to receive the same discount!</p>
                 </aside>
+                <figure>
+                    <h4><span id="total-completed">0</span>% Completed</h4>
+                    <progress id="progress" max="400" value="0"></progress>
+                    <label for="progress">
+                        <figcaption>Chapters: <span id="chapters-completed">0</span>/100</figcaption>
+                        <figcaption>Extra Credits: <span id="extra-credits-completed">0</span>/300</figcaption>
+                    </label>
+                </figure>
                 <article>
                     <h3>Unit 1: HTML/CSS/JS Orchestra</h3>
                     <ul>
-                        <li><a href="https://medium.com/siliconwat/chapter-1-hello-world-9396ec9c6d7b?sk=e145f7945fec073d2ffab6b7f8188c1c">Chapter 1: Hello World</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-2-console-b6e3bc1a8fc1?sk=d52e1ac9b1cfc8120e8f911488b4ec3c">Chapter 2: JavaScript Console</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-3-tree-structures-7a057ec077eb?sk=03de0399f4ffd7d42c15748b8562b25b">Chapter 3: Tree Structures in HTML, CSS and JavaScript</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-4-importing-css-code-81264eb81d5?sk=3e344a799681d095c8437e7339cedcfc">Chapter 4: Importing CSS Code</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-5-importing-javascript-code-e53b86d2e8b6?sk=cbc966145ecb626e8a872282beaec198">Chapter 5: Importing JavaScript Code</a></li>
+                        <li>
+                            <input id="chapter1" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-1-hello-world-9396ec9c6d7b?sk=e145f7945fec073d2ffab6b7f8188c1c">Chapter 1: Hello World</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter1-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 1</a>
+                                </li>
+                                <li>
+                                    <input id="chapter1-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 1</a>
+                                </li>
+                                <li>
+                                    <input id="chapter1-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 1</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter2" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-2-console-b6e3bc1a8fc1?sk=d52e1ac9b1cfc8120e8f911488b4ec3c">Chapter 2: JavaScript Console</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter2-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 2</a>
+                                </li>
+                                <li>
+                                    <input id="chapter2-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 2</a>
+                                </li>
+                                <li>
+                                    <input id="chapter2-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 2</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter3" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-3-tree-structures-7a057ec077eb?sk=03de0399f4ffd7d42c15748b8562b25b">Chapter 3: Tree Structures in HTML, CSS and JavaScript</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter3-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 3</a>
+                                </li>
+                                <li>
+                                    <input id="chapter3-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 3</a>
+                                </li>
+                                <li>
+                                    <input id="chapter3-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 3</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter4" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-4-importing-css-code-81264eb81d5?sk=3e344a799681d095c8437e7339cedcfc">Chapter 4: Importing CSS Code</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter4-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 4</a>
+                                </li>
+                                <li>
+                                    <input id="chapter4-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 4</a>
+                                </li>
+                                <li>
+                                    <input id="chapter4-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 4</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter5" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-5-importing-javascript-code-e53b86d2e8b6?sk=cbc966145ecb626e8a872282beaec198">Chapter 5: Importing JavaScript Code</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter5-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 5</a>
+                                </li>
+                                <li>
+                                    <input id="chapter5-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 5</a>
+                                </li>
+                                <li>
+                                    <input id="chapter5-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 5</a>
+                                </li>
+                            </ol>
+                        </li>
                     </ul>
                 </article>
                 <article>
                     <h3>Unit 2: HTML Concerto</h3>
                     <ul>
-                        <li><a href="https://medium.com/siliconwat/chapter-6-sectioning-tags-9199b48a3e77?sk=933984219c3d6a2e1c3c809462eb3b06">Chapter 6: HTML Sectioning Tags</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-7-units-of-length-838a4c4b1347?sk=0a1481c5bb39d837bb5faa51916cd2b8">Chapter 7: CSS Units of Length</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-8-css-box-model-bae771db4da3?sk=23e01a2519e389899bd7a2ef2dc35689">Chapter 8: CSS Box Model</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-9-box-model-dimensions-f9fa90defa?sk=7ced6b72346f9c66d5672c625224182f">Chapter 9: Box Model Dimensions</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-10-positioning-elements-af15b070275?sk=4c35bda10b77fd0a6b285cc331833b1c">Chapter 10: Positioning Elements</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-11-css-colors-78ae715fb028?sk=7cd9b9f80eb56cc29e1cb5a9ef66b06f">Chapter 11: CSS Colors in RGB and HSL</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-12-css-background-271ae741f2bc?sk=e955a931d2a493353f9b1010a84b3616">Chapter 12: CSS Background</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-13-css-gradients-1e0e06d46bbe?sk=bc777adf19bc0589c5fef5d4abaeac83">Chapter 13: CSS Gradients</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-14-responsive-layouts-with-css-flexbox-ab1b52c07c8c?sk=e7dfeca75caf9287a2be81d043a392c0">Chapter 14: Responsive Layouts with CSS Flexbox</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-15-responsive-layouts-with-css-grid-86643ecbfbcb?sk=b0a4d948ed768842ac2894970af5571d">Chapter 15: Responsive Layouts with CSS Grid</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-16-html-text-nodes-in-javascript-cc08da2a1125?sk=bffff8f8aece5c60b193028df66ef0b4">Chapter 16: HTML Text Nodes in JavaScript</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-17-html-content-tags-and-styles-f2512f79c13e?sk=f10d951a6a82bc2a0b31b00d8c9552ce">Chapter 17: HTML Content Tags and Styles</a></li>
-                        <li><a href="https://medium.com/siliconwat/chapter-18-css-web-fonts-2d93bfb83bc3?sk=61813d62fdf07063e54e2601d27e1fd8">Chapter 18: CSS Web Fonts and Colors</a></li>
+                        <li>
+                            <input id="chapter6" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-6-sectioning-tags-9199b48a3e77?sk=933984219c3d6a2e1c3c809462eb3b06">Chapter 6: HTML Sectioning Tags</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter6-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 6</a>
+                                </li>
+                                <li>
+                                    <input id="chapter6-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 6</a>
+                                </li>
+                                <li>
+                                    <input id="chapter6-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 6</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter7" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-7-units-of-length-838a4c4b1347?sk=0a1481c5bb39d837bb5faa51916cd2b8">Chapter 7: CSS Units of Length</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter7-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 7</a>
+                                </li>
+                                <li>
+                                    <input id="chapter7-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 7</a>
+                                </li>
+                                <li>
+                                    <input id="chapter7-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 7</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter8" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-8-css-box-model-bae771db4da3?sk=23e01a2519e389899bd7a2ef2dc35689">Chapter 8: CSS Box Model</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter8-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 8</a>
+                                </li>
+                                <li>
+                                    <input id="chapter8-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 8</a>
+                                </li>
+                                <li>
+                                    <input id="chapter8-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 8</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter9" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-9-box-model-dimensions-f9fa90defa?sk=7ced6b72346f9c66d5672c625224182f">Chapter 9: Box Model Dimensions</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter9-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 9</a>
+                                </li>
+                                <li>
+                                    <input id="chapter9-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 9</a>
+                                </li>
+                                <li>
+                                    <input id="chapter9-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 9</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter10" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-10-positioning-elements-af15b070275?sk=4c35bda10b77fd0a6b285cc331833b1c">Chapter 10: Positioning Elements</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter10-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 10</a>
+                                </li>
+                                <li>
+                                    <input id="chapter10-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 10</a>
+                                </li>
+                                <li>
+                                    <input id="chapter10-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 10</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter11" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-11-css-colors-78ae715fb028?sk=7cd9b9f80eb56cc29e1cb5a9ef66b06f">Chapter 11: CSS Colors in RGB and HSL</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter11-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 11</a>
+                                </li>
+                                <li>
+                                    <input id="chapter11-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 11</a>
+                                </li>
+                                <li>
+                                    <input id="chapter11-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 11</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter12" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-12-css-background-271ae741f2bc?sk=e955a931d2a493353f9b1010a84b3616">Chapter 12: CSS Background</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter12-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 12</a>
+                                </li>
+                                <li>
+                                    <input id="chapter12-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 12</a>
+                                </li>
+                                <li>
+                                    <input id="chapter12-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 12</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter13" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-13-css-gradients-1e0e06d46bbe?sk=bc777adf19bc0589c5fef5d4abaeac83">Chapter 13: CSS Gradients</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter13-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 13</a>
+                                </li>
+                                <li>
+                                    <input id="chapter13-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 13</a>
+                                </li>
+                                <li>
+                                    <input id="chapter13-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 13</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter14" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-14-responsive-layouts-with-css-flexbox-ab1b52c07c8c?sk=e7dfeca75caf9287a2be81d043a392c0">Chapter 14: Responsive Layouts with CSS Flexbox</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter14-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 14</a>
+                                </li>
+                                <li>
+                                    <input id="chapter14-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 14</a>
+                                </li>
+                                <li>
+                                    <input id="chapter14-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 14</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter15" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-15-responsive-layouts-with-css-grid-86643ecbfbcb?sk=b0a4d948ed768842ac2894970af5571d">Chapter 15: Responsive Layouts with CSS Grid</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter15-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 15</a>
+                                </li>
+                                <li>
+                                    <input id="chapter15-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 15</a>
+                                </li>
+                                <li>
+                                    <input id="chapter15-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 15</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter16" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-16-html-text-nodes-in-javascript-cc08da2a1125?sk=bffff8f8aece5c60b193028df66ef0b4">Chapter 16: HTML Text Nodes in JavaScript</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter16-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 16</a>
+                                </li>
+                                <li>
+                                    <input id="chapter16-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 16</a>
+                                </li>
+                                <li>
+                                    <input id="chapter16-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 16</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter17" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-17-html-content-tags-and-styles-f2512f79c13e?sk=f10d951a6a82bc2a0b31b00d8c9552ce">Chapter 17: HTML Content Tags and Styles</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter17-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 17</a>
+                                </li>
+                                <li>
+                                    <input id="chapter17-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 17</a>
+                                </li>
+                                <li>
+                                    <input id="chapter17-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 17</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <input id="chapter18" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-18-css-web-fonts-2d93bfb83bc3?sk=61813d62fdf07063e54e2601d27e1fd8">Chapter 18: CSS Web Fonts and Colors</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter18-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 18</a>
+                                </li>
+                                <li>
+                                    <input id="chapter18-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 18</a>
+                                </li>
+                                <li>
+                                    <input id="chapter18-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 18</a>
+                                </li>
+                            </ol>
+                        </li>
                     </ul>
                 </article>
                 <article>
                     <h3>Unit 3: CSS Concerto</h3>
                     <ul>
-                        <li><a href="https://medium.com/siliconwat/chapter-19-box-alignment-with-css-flexbox-50cbf5e22c2d?sk=549e3e6a93cf244f07252f056dfd9ad0">Chapter 19: CSS Flexbox Alignment and JavaScript Function Declaration</a></li>
+                        <li>
+                            <input id="chapter19" type="checkbox" oninput="checkMark(this)">
+                            <a href="https://medium.com/siliconwat/chapter-19-box-alignment-with-css-flexbox-50cbf5e22c2d?sk=549e3e6a93cf244f07252f056dfd9ad0">Chapter 19: CSS Flexbox Alignment and JavaScript Function Declaration</a>
+                            <ol>
+                                <li>
+                                    <input id="chapter19-podcast" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://success.siliconwat.com/frontend/podcast.html">The Code of Success Podcast: Episode 19</a>
+                                </li>
+                                <li>
+                                    <input id="chapter19-app" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://flashcards.siliconwat.com/frontend/app.html">One-Liner FlashCard App: Game 19</a>
+                                </li>
+                                <li>
+                                    <input id="chapter19-tutoring" type="checkbox" oninput="checkMark(this)">
+                                    <a href="https://livestream.siliconwat.org/frontend/tutoring.html">Technical Interview Livestream Tutoring: Session 19</a>
+                                </li>
+                            </ol>
+                        </li>
                     </ul>
                 </article>
                 <article>

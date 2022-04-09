@@ -87,6 +87,16 @@ li {
     padding: 15px;
 }
 
-nav a {
+header nav a {
     margin: 5px;
+}
+
+main nav:first-of-type a {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+
+main nav:last-of-type a {
+    margin: 10px;
 }

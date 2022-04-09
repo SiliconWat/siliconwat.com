@@ -28,7 +28,7 @@ header section {
 }
 
 main {
-    height: 100%;
+    height: fit-content;
     padding: 5px;
     background: lightseagreen;
     text-align: center;
@@ -86,6 +86,12 @@ li {
     padding: 15px;
 }
 
-main nav {
-    margin-top: 40px;
+main nav:first-of-type a {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+main nav:last-of-type a {
+    margin: 5px;
 }

@@ -115,10 +115,31 @@ li {
     font-weight: bold;
 }
 
-li a {
+ul li a {
     font-size: 1.5rem;
+}
+
+ol li a {
+    font-size: 1.2rem;
 }
 
 nav a {
     margin: 5px;
+}
+
+figure {
+    position: absolute;
+    right: 3vw;
+    bottom: 13vh;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+ol li {
+    opacity: 50%;
 }

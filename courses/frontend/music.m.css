@@ -123,6 +123,25 @@ li {
     font-weight: bold;
 }
 
-li a {
+ul li a {
     font-size: 1.2rem;
+}
+
+ol li a {
+    font-size: 1rem;
+}
+
+figure {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+ol li {
+    opacity: 50%;
 }
