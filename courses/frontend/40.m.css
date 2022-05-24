@@ -1,0 +1,94 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+body {
+    background: lightskyblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 30vh;
+    background: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+main {
+    height: 55vh;
+    background: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    overflow: scroll;
+}
+
+footer {
+    height: 15vh;
+    background: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer small {
+    order: 1;
+}
+
+header img {
+    height: 80px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+a, button, small, strong {
+    font-size: 1.1rem;
+}
+
+main section {
+    text-align: center;
+}
+
+h2  {
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+p {
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+    font-weight: bold;
+}
+
+li a {
+    font-size: 1.2rem;
+}

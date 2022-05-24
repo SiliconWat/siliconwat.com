@@ -53,51 +53,40 @@ h1 {
     font-size: 3rem;
 }
 
-h2 {
-    font-size: 2rem;
-    margin-bottom: 0;
-    color: whitesmoke;
-    width: 80%;
+button, a, small, strong {
+    font-size: 1.5rem;
+}
+
+main section {
     text-align: center;
 }
 
+main h2 a {
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+main p a {
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
 ul {
-    font-size: 1.8rem;
-    display: flex;
-    flex-flow: row wrap;
+    text-align: center;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-select, a, small, strong {
-    font-size: 1.5rem;
-}
-
 li {
-    width: 25vw;
-    height: 25vh;
-    background-color: bisque;
-    margin: 20px;
-    box-shadow: 5px 5px 5px purple;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
-}
-
-header nav a {
-    margin: 5px;
-}
-
-main nav:first-of-type a {
-    display: flex;
-    margin: 5px;
-    justify-content: center;
-}
-
-main nav:last-of-type a {
     margin: 10px;
+    font-weight: bold;
+}
+
+li a {
+    font-size: 1.8rem;
+}
+
+nav a {
+    margin: 5px;
 }
