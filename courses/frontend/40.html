@@ -26,15 +26,232 @@
         </header>
         <main>
             <section>
-                <h2><a href="https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c?sk=44e580464daddcbb5e1bf8e641740e15">Data Structures and Algorithms in JavaScript</a></h2>
-                <p><a href="https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038?sk=7231be1639be40670bc56794d62dacef">40 Problems, Solutions, and Explanations</a></p>
+                <h2><a href="https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c?sk=44e580464daddcbb5e1bf8e641740e15">Data Structures in JavaScript</a></h2>
+                <h3><a href="https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038?sk=7231be1639be40670bc56794d62dacef">Algorithms in JavaScript</a></h3>
             </section>
-            todo: read for free from here; donate...
-            later: add checklist?
-            <ol>
-                todo: add sections 
-                <li><a href="#">Fizz Buzz</a></li>
-            </ol>
+            <aside>
+                <p>From here, you can read my Medium articles above for <strong>free!</strong></p>
+                <p>If you like Medium and use my <a href="https://medium.com/@thonly/membership">referral link</a> to join, I will give you a special coupon to get ALL my <a href="https://www.udemy.com/user/thonly/">Udemy courses</a> for <strong>90% OFF</strong> for Life!</p>
+                <p>If you’re already a Medium member or don't like it, please consider donating to <a href="https://github.com/sponsors/SiliconWat">@SiliconWat</a> to receive the same discount!</p>
+            </aside>
+            <figure>
+                <h4><span id="total-completed">0</span>% Completed</h4>
+                <progress id="progress" max="100" value="0"></progress>
+                <label for="progress">
+                    <figcaption>Problems: <span id="chapters-completed">0</span>/100</figcaption>
+                </label>
+            </figure>
+            <table>
+                <caption>Difficulty increases as you go down and to the right</caption>
+                <thead>
+                    <tr>
+                        <th>Difficulty</th>
+                        <th>Primitives</th>
+                        <th>Arrays</th>
+                        <th>Stacks</th>
+                        <th>Queues</th>
+                        <th>Hash Tables</th>
+                        <th>Linked Lists</th>
+                        <th>Trees</th>
+                        <th>Graphs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <a>Fizz Buzz</a>  
+                        </td>
+                        <td>
+                            <a>String Reversal</a>
+                        </td>
+                        <td>
+                            <a>Stack</a>
+                        </td>
+                        <td>
+                            <a>Queue</a>
+                        </td>
+                        <td>
+                            <a>Hash Table</a>
+                        </td>
+                        <td>
+                            <a>Singly Linked List</a>
+                        </td>
+                        <td>
+                            <a>Binary Search Tree</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <a>Fibonacci</a>   
+                        </td>
+                        <td>
+                            <a>Palindrome</a>
+                        </td>
+                        <td>
+                            <a>Two Stacks</a>
+                        </td>
+                        <td>
+                            <a>Weaving</a>
+                        </td>
+                        <td>
+                            <a>Max Character</a>   
+                        </td>
+                        <td>
+                            <a>Doubly Linked List</a>   
+                        </td>
+                        <td>
+                            <a>Binary Search</a>   
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <a>Staircase</a>  
+                        </td>
+                        <td>
+                            <a>Integer Reversal</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a>Anagrams</a>  
+                        </td>
+                        <td>
+                            <a>Midpoint</a>    
+                        </td>
+                        <td>
+                            <a>Breadth Search</a>   
+                        </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <a>Pyramid</a>
+                        </td>
+                        <td>
+                            <a>Vowels</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a>Ransom Note</a>   
+                        </td>
+                        <td>
+                            <a>Circular</a> 
+                        </td> 
+                        <td>
+                            <a>Depth Traversal</a>   
+                        </td>
+                        <td></td>                        
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td></td>
+                        <td>
+                            <a>Array Chunking</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a>Mean, Medium, and Mode</a> 
+                        </td>
+                        <td>
+                            <a>From Tail</a>
+                        </td>
+                        <td>
+                            <a>Tree Widths</a>
+                        </td>
+                        <td></td>  
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td></td>
+                        <td>
+                            <a>Reverse Array</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a>Memoized Fibonacci</a>
+                        </td>
+                        <td></td>
+                        <td>
+                            <a>Tree Height</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td></td>
+                        <td>
+                            <a>Reverse Words</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a>Merkle Tree</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td></td>
+                        <td>
+                            <a>Capitalization</a>
+                            <a>Two Sum</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a>Partial Verification</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td></td>
+                        <td>
+                            <a>Caesar Cipher</a>
+                            <a>Sieve of Eratosthenes</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a>Blockchain</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td></td>
+                        <td>
+                            <a>Max Profit</a>
+                            <a>Matrix Spiral</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a>Mining</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
             <nav>
                 <!--<a href="https://discord.gg/9MAGPryJpN">Discord</a>-->
                 <a href="https://github.com/SiliconWat">GitHub</a>

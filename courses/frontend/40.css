@@ -34,6 +34,8 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 footer {
@@ -66,7 +68,7 @@ main h2 a {
     color: whitesmoke;
 }
 
-main p a {
+main h3 a {
     font-size: 1.5rem;
     color: whitesmoke;
 }
@@ -89,4 +91,25 @@ li a {
 
 nav a {
     margin: 5px;
+}
+
+aside {
+    text-align: center;
+    width: 60%;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+aside p {
+    font-size: 1.2rem;
+}
+
+figure {
+    position: absolute;
+    right: 3vw;
+    bottom: 13vh;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
 }
