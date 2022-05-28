@@ -39,7 +39,7 @@
                     <h4><span id="total-completed">0</span>% Completed</h4>
                     <progress id="progress" max="100" value="0"></progress>
                     <label for="progress">
-                        <figcaption>Problems: <span id="chapters-completed">0</span>/100</figcaption>
+                        <figcaption>Problems: <span id="problems-completed">0</span>/<span id="total">100</span></figcaption>
                     </label>
                 </figure>
             </section>
@@ -73,175 +73,223 @@
                     <tr>
                         <td>1</td>
                         <td>
-                            <a>Fizz Buzz</a>  
+                            <input id="p-1" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Fizz Buzz</a>  
                         </td>
                         <td>
-                            <a>String Reversal</a>
+                            <input id="a-1" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">String Reversal</a>
                         </td>
                         <td>
-                            <a>Stack</a>
+                            <input id="s-1" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Stack</a>
                         </td>
                         <td>
-                            <a>Queue</a>
+                            <input id="q-1" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Queue</a>
                         </td>
                         <td>
-                            <a>Hash Table</a>
+                            <input id="h-1" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Hash Table</a>
                         </td>
                         <td>
-                            <a>Singly Linked List</a>
+                            <input id="l-1" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Singly Linked List</a>
                         </td>
                         <td>
-                            <a>Binary Search Tree</a>
+                            <input id="t-1" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Binary Search Tree</a>
                         </td>
                         <td>
-                            <a>Graph</a>
+                            <input id="g-1" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Graph</a>
                         </td>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>
-                            <a>Fibonacci</a>   
+                            <input id="p-2" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Fibonacci</a>   
                         </td>
                         <td>
-                            <a>Palindrome</a>
+                            <input id="a-2" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Palindrome</a>
                         </td>
                         <td>
-                            <a>Two Stacks</a>
+                            <input id="s-2" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Two Stacks</a>
                         </td>
                         <td>
-                            <a>Weaving</a>
+                            <input id="q-2" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Weaving</a>
                         </td>
                         <td>
-                            <a>Max Character</a>   
+                            <input id="h-2" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Max Character</a>   
                         </td>
                         <td>
-                            <a>Doubly Linked List</a>   
+                            <input id="l-2" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Doubly Linked List</a>   
                         </td>
                         <td>
-                            <a>Binary Search</a>   
+                            <input id="t-2" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Binary Search</a>   
                         </td>
                         <td>
-                            <a>Breadth-First Search</a>
+                            <input id="g-2" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Breadth-First Search</a>
                         </td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>
-                            <a>Staircase</a>  
+                            <input id="p-3" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Staircase</a>  
                         </td>
                         <td>
-                            <a>Integer Reversal</a>
+                            <input id="a-3" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Integer Reversal</a>
                         </td>
                         <td></td>
                         <td></td>
                         <td>
-                            <a>Anagrams</a>  
+                            <input id="h-3" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Anagrams</a>  
                         </td>
                         <td>
-                            <a>Midpoint</a>    
+                            <input id="l-3" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Midpoint</a>    
                         </td>
                         <td>
-                            <a>Breadth-First Search</a>   
+                            <input id="t-3" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Breadth-First Search</a>   
                         </td>
                         <td>
-                            <a>Depth-First Search</a>
+                            <input id="g-3" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Depth-First Search</a>
                         </td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>
-                            <a>Pyramid</a>
+                            <input id="p-4" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Pyramid</a>
                         </td>
                         <td>
-                            <a>Vowels</a>
+                            <input id="a-4" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Vowels</a>
                         </td>
                         <td></td>
                         <td></td>
                         <td>
-                            <a>Ransom Note</a>   
+                            <input id="h-4" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Ransom Note</a>   
                         </td>
                         <td>
-                            <a>Circular</a> 
+                            <input id="l-4" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Circular</a> 
                         </td> 
                         <td>
-                            <a>Depth-First Search</a>   
+                            <input id="t-4" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Depth-First Search</a>   
                         </td>
                         <td>
-                            <a>Peer-To-Peer Network</a>
+                            <input id="g-4" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Peer-To-Peer Network</a>
                         </td>                        
                     </tr>
                     <tr>
                         <td>5</td>
                         <td></td>
                         <td>
-                            <a>Array Chunking</a>
+                            <input id="a-5" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Array Chunking</a>
                         </td>
                         <td></td>
                         <td></td>
                         <td>
-                            <a>Mean, Medium, and Mode</a> 
+                            <input id="h-5" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Mean, Medium, and Mode</a> 
                         </td>
                         <td>
-                            <a>From Tail</a>
+                            <input id="l-5" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">From Tail</a>
                         </td>
                         <td>
-                            <a>Tree Widths</a>
+                            <input id="t-5" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Tree Widths</a>
                         </td>
                         <td>
-                            <a>Decentralized Network</a>
+                            <input id="g-5" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Decentralized Network</a>
                         </td>  
                     </tr>
                     <tr>
                         <td>6</td>
                         <td></td>
                         <td>
-                            <a>Reverse Array</a>
-                            <a>Binary Search</a>
+                            <input id="a-6" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Reverse Array</a>
+                            <br />
+                            <input id="a-11" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Binary Search</a>
                         </td>
                         <td></td>
                         <td></td>
                         <td>
-                            <a>Memoized Fibonacci</a>
+                            <input id="h-6" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Memoized Fibonacci</a>
                         </td>
                         <td></td>
                         <td>
-                            <a>Tree Height</a>
+                            <input id="t-6" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Tree Height</a>
                         </td>
                         <td>
-                            <a>Machine Learning</a>
+                            <input id="g-6" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Machine Learning</a>
                         </td>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td></td>
                         <td>
-                            <a>Reverse Words</a>
-                            <a>Sorting</a>
+                            <input id="a-7" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Reverse Words</a>
+                            <br />
+                            <input id="a-12" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Sorting</a>
                         </td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td>
-                            <a>Merkle Tree</a>
+                            <input id="t-7" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Merkle Tree</a>
                         </td>
                         <td>
-                            <a>Neural Network</a>
+                            <input id="g-7" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Neural Network</a>
                         </td>
                     </tr>
                     <tr>
                         <td>8</td>
                         <td></td>
                         <td>
-                            <a>Capitalization</a>
-                            <a>Two Sum</a>
+                            <input id="a-8" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Capitalization</a>
+                            <br />
+                            <input id="a-13" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Two Sum</a>
                         </td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td>
-                            <a>Partial Verification</a>
+                            <input id="t-8" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Partial Verification</a>
                         </td>
                         <td></td>
                     </tr>
@@ -249,15 +297,19 @@
                         <td>9</td>
                         <td></td>
                         <td>
-                            <a>Caesar Cipher</a>
-                            <a>Sieve of Eratosthenes</a>
+                            <input id="a-9" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Caesar Cipher</a>
+                            <br />
+                            <input id="a-14" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Sieve of Eratosthenes</a>
                         </td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td>
-                            <a>Blockchain</a>
+                            <input id="t-9" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Blockchain</a>
                         </td>
                         <td></td>
                     </tr>
@@ -265,15 +317,19 @@
                         <td>10</td>
                         <td></td>
                         <td>
-                            <a>Max Profit</a>
-                            <a>Matrix Spiral</a>
+                            <input id="a-10" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Max Profit</a>
+                            <br />
+                            <input id="a-15" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Matrix Spiral</a>
                         </td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td>
-                            <a>Mining</a>
+                            <input id="t-10" type="checkbox" oninput="checkMark(this)">
+                            <a href="#">Mining</a>
                         </td>
                         <td></td>
                         <td></td>
