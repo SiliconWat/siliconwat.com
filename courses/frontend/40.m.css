@@ -4,6 +4,8 @@ html {
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     background: lightskyblue;
     margin: 0;
     display: flex;
@@ -11,7 +13,7 @@ body {
 }
 
 header {
-    height: 30vh;
+    flex: 4;
     background: lightskyblue;
     display: flex;
     flex-direction: column;
@@ -28,18 +30,15 @@ header section {
 }
 
 main {
-    height: 55vh;
+    flex: 9;
     background: lightseagreen;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     text-align: center;
     overflow: scroll;
+    padding-bottom: 25px;
 }
 
 footer {
-    height: 15vh;
+    flex: 2;
     background: lightsteelblue;
     display: flex;
     flex-direction: column;
@@ -59,36 +58,84 @@ h1 {
     font-size: 2rem;
 }
 
-a, button, small, strong {
+button, small, strong {
     font-size: 1.1rem;
 }
 
-main section {
+nav a {
+    font-size: 1.1rem;
+}
+
+main section:nth-of-type(2) {
     text-align: center;
 }
 
-h2  {
+main h2 a {
     font-size: 1.5rem;
     color: whitesmoke;
 }
 
-p {
-    font-size: 1.1rem;
+main h3 a {
+    font-size: 1.2rem;
     color: whitesmoke;
 }
 
-ul {
+aside {
     text-align: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
 }
 
-li {
+aside p {
+    font-size: 1rem;
+}
+
+figure {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 25px;
+}
+
+col:nth-of-type(2n) {
+    background-color: lightgreen;
+}
+
+col:nth-of-type(2n+1) {
+    background-color: lightcyan;
+}
+
+col:first-child {
+    background-color: lightblue;
+}
+
+th {
+    background-color: lightgray;
+    font-size: 1.1rem;
+}
+
+tbody a {
+    display: block;
+    font-size: 1rem;
+}
+
+tfoot {
+    font-style: italic;
+}
+
+caption {
     margin: 10px;
-    font-weight: bold;
 }
 
-li a {
-    font-size: 1.2rem;
+caption a {
+    font-size: 1.3rem;
+    color: black;
 }
