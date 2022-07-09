@@ -139,3 +139,10 @@ caption a {
     font-size: 1.3rem;
     color: black;
 }
+
+#hb {
+    display: inline-block;
+    transform: rotate(60deg);
+    color: green;
+    font-size: 2em;
+}
