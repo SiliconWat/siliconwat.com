@@ -1,0 +1,187 @@
+:host {
+	color: #4c4c4c;
+	background-color: white;
+	padding: 10px;
+	--theme-color: darkcyan;
+}
+
+header {
+	display: flex;
+	flex: row nowrap;
+	align-items: center;
+}
+
+section {
+	flex: 3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+nav {
+	flex: 7;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+aside {
+	flex: 1;
+	text-align: center;
+}
+
+h1 {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+img {
+	height: 5em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	visibility: hidden;
+	position: absolute;
+	background-color: white;
+	width: auto;
+	border-top: 10px solid white;
+	transition: border-top-color 0.3s ease;
+	padding: 15px 25px 25px 25px;
+	z-index: 1;
+}
+
+div > a {
+	text-align: center;
+}
+
+menu {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+ul:hover h3 {
+	color: var(--theme-color);
+	cursor: pointer;
+}
+
+ul:hover div {
+	visibility: visible;
+	border-top-color: var(--theme-color);
+}
+
+div h4 {
+	cursor: default;
+}
+
+menu li {
+	margin: 0 0 10px 10px;
+}
+
+menu li:hover {
+	color: var(--theme-color);
+	cursor: pointer;
+}
+
+menu li a:not([href]) {
+	opacity: 0.5;
+	cursor: default !important;
+}
+
+/*----------*/
+
+.menu-button-container {
+	display: none;
+	cursor: pointer;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+  
+#menu-toggle {
+	display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+	display: block;
+	background-color: currentColor;
+	position: absolute;
+	height: 4px;
+	width: 30px;
+	transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+	border-radius: 2px;
+}
+
+.menu-button::before {
+	content: '';
+	margin-top: -8px;
+}
+
+.menu-button::after {
+	content: '';
+	margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+	margin-top: 0px;
+	transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+	background: currentColor;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+	margin-top: 0px;
+	transform: rotate(-405deg);
+}
+
+@media (max-width: 480px) {
+	nav, aside {
+		display: none;
+	}
+
+	nav {
+		position: absolute;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		top: 100px;
+	}
+
+	figure {
+		display: block;
+	}
+
+	.menu-button-container {
+		display: flex;
+		flex: 0.5;
+	}
+
+	#menu-toggle:checked ~ nav {
+		display: flex;
+	}
+
+	#menu-toggle ~ nav {
+		display: none;
+	}
+}
