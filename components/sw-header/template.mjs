@@ -16,7 +16,7 @@ template.innerHTML = `
                 <li>
                     <h3>Frontend Course</h3>
                     <div>
-                        <a href="#frontend-cohort"><button>Join: Remote Cohort Frontend Program</button></a>
+                        <a href="#frontend-cohort"><button class="cohort">Join: Remote Cohort Frontend Program</button></a>
                         <h4>Learn</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
@@ -27,16 +27,16 @@ template.innerHTML = `
                         <menu>
                             <li><a href="#frontend-podcast">Podcast: Motivation & Coding Music</a></li>
                             <li><a href="#frontend-code">Interactive Coding Exercises</a></li>
-                            <li><a>Remote Pair Programming on Discord</a></li>
-                            <li><a>Students' Solo Projects on Codepen</a></li>
+                            <li class="cohort"><a>Remote Pair Programming on Discord</a></li>
+                            <li class="cohort"><a>Students' Solo Projects on Codepen</a></li>
                         </menu>
                         <h4>Review</h4>
                         <menu>
                             <li><a>Live Demo: Music Apps</a></li>
                             <li><a>Syntax Flashcards</a></li>
-                            <li><a>Group Chat & Discussion Boards</a></li>
-                            <li><a>Students' Writings on Medium</a></li>
-                            <li><a>Mock Interviews on YouTube</a></li>
+                            <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
+                            <li class="cohort"><a>Students' Writings on Medium</a></li>
+                            <li class="cohort"><a>Mock Interviews on YouTube</a></li>
                         </menu>
                         <h4>Bonus: Advanced Lessons</h4>
                         <menu>
@@ -50,7 +50,7 @@ template.innerHTML = `
                 <li>
                     <h3>Backend Course</h3>
                     <div>
-                        <a href="#backend-cohort"><button>Join: Remote Cohort Backend Program</button></a>
+                        <a href="#backend-cohort"><button class="cohort">Join: Remote Cohort Backend Program</button></a>
                         <h4>Learn</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
@@ -61,16 +61,16 @@ template.innerHTML = `
                         <menu>
                             <li><a href="#backend-podcast">Podcast: Motivation & Coding Music</a></li>
                             <li><a href="#backend-code">Interactive Coding Exercises</a></li>
-                            <li><a>Remote Pair Programming on Discord</a></li>
-                            <li><a>Students' Solo Projects on Replit</a></li>
+                            <li class="cohort"><a>Remote Pair Programming on Discord</a></li>
+                            <li class="cohort"><a>Students' Solo Projects on Replit</a></li>
                         </menu>
                         <h4>Review</h4>
                         <menu>
                             <li><a>Live Demo: Music Apps</a></li>
                             <li><a>Syntax Flashcards</a></li>
-                            <li><a>Group Chat & Discussion Boards</a></li>
-                            <li><a>Students' Writings on Medium</a></li>
-                            <li><a>Mock Interviews on YouTube</a></li>
+                            <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
+                            <li class="cohort"><a>Students' Writings on Medium</a></li>
+                            <li class="cohort"><a>Mock Interviews on YouTube</a></li>
                         </menu>
                         <h4>Bonus: Advanced Lessons</h4>
                         <menu>
@@ -84,7 +84,7 @@ template.innerHTML = `
                 <li>
                     <h3>iOS Course</h3>
                     <div>
-                        <a href="#ios-cohort"><button>Join: Remote Cohort iOS Program</button></a>
+                        <a href="#ios-cohort"><button class="cohort">Join: Remote Cohort iOS Program</button></a>
                         <h4>Learn</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
@@ -95,16 +95,16 @@ template.innerHTML = `
                         <menu>
                             <li><a href="#ios-podcast">Podcast: Motivation & Coding Music</a></li>
                             <li><a href="#ios-code">Interactive Coding Exercises</a></li>
-                            <li><a>Remote Pair Programming on Discord</a></li>
-                            <li><a>Students' Solo Projects on GitHub</a></li>
+                            <li class="cohort"><a>Remote Pair Programming on Discord</a></li>
+                            <li class="cohort"><a>Students' Solo Projects on GitHub</a></li>
                         </menu>
                         <h4>Review</h4>
                         <menu>
                             <li><a>Live Demo: Music Apps</a></li>
                             <li><a>Syntax Flashcards</a></li>
-                            <li><a>Group Chat & Discussion Boards</a></li>
-                            <li><a>Students' Writings on Medium</a></li>
-                            <li><a>Mock Interviews on YouTube</a></li>
+                            <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
+                            <li class="cohort"><a>Students' Writings on Medium</a></li>
+                            <li class="cohort"><a>Mock Interviews on YouTube</a></li>
                         </menu>
                         <h4>Bonus: Advanced Lessons</h4>
                         <menu>
@@ -118,23 +118,22 @@ template.innerHTML = `
                 <li>
                     <h3>Graduation</h3>
                     <div>
-                        <button>Silicon Wat Blockchain</button>
+                        <button>Earn SW Coins</button>
                         <h4>Awards</h4>
                         <menu>
-                            <li><a>Course Completion Certification</a></li>
-                            <li><a>Graduation Diploma</a></li>
+                            <li class="cohort"><a>Course Completion Certification</a></li>
+                            <li class="cohort"><a>Graduation Diploma</a></li>
                         </menu>
                         <h4>Rewards</h4>
                         <menu>
-                            <li><a>Committment Deposit Refund</a></li>
-                            <li><a>Course Completion Bonus</a></li>
-                            <li><a>Graduation Bonus</a></li>
+                            <li class="cohort"><a>Committment Deposit Refund</a></li>
+                            <li class="cohort"><a>Course Completion Bonus</a></li>
+                            <li class="cohort"><a>Graduation Mega Bonus</a></li>
                         </menu>
                         <h4>Benefits</h4>
                         <menu>
-                            <li><a>Mock Technical Interviews</a></li>
-                            <li><a>Work Bounties at THonly™</a></li>
-                            <li><a>Startup Incubator Admission</a></li>
+                            <li class="cohort"><a>Mock Technical Interviews</a></li>
+                            <li class="cohort"><a>Campus Apprenticeship Program</a></li>
                         </menu>
                     </div>
                 </li>

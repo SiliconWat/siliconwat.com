@@ -105,6 +105,18 @@ menu li a:not([href]) {
 	cursor: default !important;
 }
 
+.cohort {
+	color: purple;
+}
+
+button.cohort {
+	color: white;
+    background-color: purple;
+    border-radius: 5px;
+	border: double 5px white;
+	padding: 3px 5px;
+}
+
 /*----------*/
 
 .menu-button-container {
