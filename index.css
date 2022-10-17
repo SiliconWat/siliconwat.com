@@ -1,10 +1,18 @@
+:root {
+    --palette-color-1: #264653;
+    --palette-color-2: #2A9D8F;
+    --palette-color-3: #bde0fe;
+    --palette-color-4: #457b9d;
+    --palette-color-5: #E76F51;
+}
+
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
 }
 
 body {
-    background: lightskyblue;
+    background: linear-gradient(var(--palette-color-3), var(--palette-color-4));
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -17,10 +25,16 @@ main {
     overflow: scroll;
 }
 
+sw-header {
+    --theme-color-1: var(--palette-color-1);
+    --theme-color-2: var(--palette-color-2);
+}
+
 sw-main {
     min-height: 100vh;
 }
 
 sw-footer {
     min-height: 20vh;
+    --theme-color: var(--palette-color-1);
 }
