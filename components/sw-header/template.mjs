@@ -41,8 +41,10 @@ template.innerHTML = `
                         <h4>Bonus: Advanced Lessons</h4>
                         <menu>
                             <li><a>React and Redux</a></li>
+                            <li><a>TypeScript</a></li>
                             <li><a>Web Audio Production</a></li>
                         </menu>
+                        <a><button>eLearn: Frontend Music Course</button></a>
                     </div>
                 </li>
             </ul>
@@ -77,6 +79,7 @@ template.innerHTML = `
                             <li><a>Quantum Physics & Computing</a></li>
                             <li><a>Kiitos Programming Language</a></li>
                         </menu>
+                        <a><button>eLearn: Backend Blockchain Course</button></a>
                     </div>
                 </li>
             </ul>
@@ -108,9 +111,11 @@ template.innerHTML = `
                         </menu>
                         <h4>Bonus: Advanced Lessons</h4>
                         <menu>
+                            <li><a>React Native</a></li>
                             <li><a>3D Animations</a></li>
                             <li><a>Deep Learning</a></li>
                         </menu>
+                        <a><button>eLearn: iOS Metaverse Course</button></a>
                     </div>
                 </li>
             </ul>
