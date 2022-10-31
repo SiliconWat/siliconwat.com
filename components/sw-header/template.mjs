@@ -32,7 +32,7 @@ template.innerHTML = `
                         </menu>
                         <h4>Review</h4>
                         <menu>
-                            <li><a>Live Demo: Music Apps</a></li>
+                            <li><a>Live Demo: Music PWAs</a></li>
                             <li><a>Syntax Flashcards</a></li>
                             <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
                             <li class="cohort"><a>Students' Writings on Medium</a></li>
@@ -69,7 +69,7 @@ template.innerHTML = `
                         </menu>
                         <h4>Review</h4>
                         <menu>
-                            <li><a>Live Demo: Music Apps</a></li>
+                            <li><a>Live Demo: Blockchain dApps</a></li>
                             <li><a>Syntax Flashcards</a></li>
                             <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
                             <li class="cohort"><a>Students' Writings on Medium</a></li>
@@ -77,6 +77,7 @@ template.innerHTML = `
                         </menu>
                         <h4>Bonus: Advanced Lessons</h4>
                         <menu>
+                            <li><a>Alexa Music Skill</a></li>
                             <li><a>Quantum Physics & Computing</a></li>
                             <li><a>Kiitos Programming Language</a></li>
                         </menu>
@@ -105,7 +106,7 @@ template.innerHTML = `
                         </menu>
                         <h4>Review</h4>
                         <menu>
-                            <li><a>Live Demo: Music Apps</a></li>
+                            <li><a>Live Demo: Metaverse Apps</a></li>
                             <li><a>Syntax Flashcards</a></li>
                             <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
                             <li class="cohort"><a>Students' Writings on Medium</a></li>
