@@ -16,12 +16,8 @@ class SwMain extends HTMLElement {
     }
 
     connectedCallback() {
-        this.shadowRoot.querySelector("slot").assignedElements().find(element => element.tagName === this.#hash[0]).render(this.#hash[1]);
-    }
-
-    render(component, course) {
-        this.shadowRoot.querySelector("slot").assignedElements().forEach(element => element.style.display = "none");
-        this.shadowRoot.querySelector("slot").assignedElements().find(element => element.tagName === "SW-" + component.toUpperCase()).render(course);
+        //this.shadowRoot.querySelector("slot").assignedElements().find(element => element.tagName === this.#hash[0]).render(this.#hash[1]);
+        this.shadowRoot.querySelector("slot").assignedElements().find(element => element.tagName === "SW-STEALTH").render(window.location.hash.substring(1));
     }
 }
 
