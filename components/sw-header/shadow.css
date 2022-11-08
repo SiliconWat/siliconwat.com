@@ -19,12 +19,17 @@ section {
 	align-items: center;
 }
 
-nav {
+ul {
 	flex: 7;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 25px;
 }
 
 aside {
@@ -36,6 +41,11 @@ h1 {
 	color: var(--theme-color-1);
 	font-size: 2em;
 	margin: 0;
+	margin-left: 15px;
+}
+
+h2 {
+	cursor: default;
 }
 
 h1:hover {
@@ -55,14 +65,7 @@ img {
 	height: 5em;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	margin-top: 25px;
-}
-
-div {
+nav {
 	display: flex;
 	flex-direction: column;
 	visibility: hidden;
@@ -74,11 +77,12 @@ div {
 	padding: 15px 25px 25px 25px;
 	z-index: 200;
 
+	max-width: 20vw;
 	max-height: 70vh;
 	overflow: hidden scroll;
 }
 
-div > a {
+nav > a {
 	text-align: center;
 }
 
@@ -90,17 +94,17 @@ menu {
 	flex-direction: column;
 }
 
-ul:hover h3 {
+ul li:hover h3 {
 	color: var(--theme-color-2);
 	cursor: pointer;
 }
 
-ul:hover div {
+ul li:hover nav {
 	visibility: visible;
 	border-top-color: var(--theme-color-2);
 }
 
-div h4 {
+nav h4 {
 	cursor: default;
 }
 
@@ -113,39 +117,19 @@ menu li:hover {
 	cursor: pointer;
 }
 
-menu li a:not([href]) {
+/*menu li a:not([href]) {
 	opacity: 0.5;
 	cursor: default !important;
 }
 
+menu li input:not([oninput]) {
+	opacity: 0.5;
+	pointer-events: none;
+}*/
+
 select {
 	color: var(--palette-color-2);
 	border-color: currentColor;
-}
-
-button {
-	color: white;
-    background-color: var(--theme-color-2);
-    border-radius: 5px;
-	border: double 5px white;
-	padding: 3px 5px;
-}
-
-button.cohort {
-	color: white;
-    background-color: purple;
-    border-radius: 5px;
-	border: double 5px white;
-	padding: 3px 5px;
-}
-
-button:hover {
-	cursor: pointer;
-	border-color: var(--theme-color-2);
-}
-
-.cohort {
-	color: purple;
 }
 
 /*----------*/
@@ -201,9 +185,12 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+	section {
+		flex: 3;
+	}
+
 	h1 {
 		font-size: 1.5em;
-		margin-left: 15px;
 	}
 
 	aside {
@@ -212,14 +199,14 @@ button:hover {
 
 	.menu-button-container {
 		display: flex;
-		flex: 0.5;
+		flex: 1;
 	}
 
 	h3 {
 		color: white;
 	}
 
-	div {
+	nav {
 		top: 0;
 		right: 0;
 		opacity: 0;
@@ -228,19 +215,19 @@ button:hover {
 		overflow: hidden scroll;
 	}
 
-	ul:hover div {
+	ul li:hover nav {
 		opacity: 1;
 		transition: opacity 0.5s ease-in;
 	}
 
-	#menu-toggle ~ nav {
+	#menu-toggle ~ ul {
 		display: none;
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: flex-start;
 
 		position: absolute;
-		top: 100px;
+		top: 75px;
 		left: 0;
 		z-index: 200;
 
@@ -255,7 +242,7 @@ button:hover {
 		animation: slideIn 0.5s ease-in-out;*/
 	}
 
-	#menu-toggle:checked ~ nav {
+	#menu-toggle:checked ~ ul {
 		display: flex;
 		opacity: 1;
 		transition: opacity 0.5s ease-in-out;

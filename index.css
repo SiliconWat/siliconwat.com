@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background: linear-gradient(var(--palette-color-3), var(--palette-color-4));
+    background: var(--palette-color-5);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -26,13 +26,9 @@ sw-header {
 }
 
 main {
-    display: grid;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-direction: column;
     overflow: hidden scroll;
-}
-
-sw-main {
-    min-height: 90vh;
 }
 
 sw-footer {
