@@ -2,6 +2,7 @@
     background-color: var(--theme-color);
     color: #fffa;
     font-size: small;
+    padding-top: 40px;
 }
 
 nav {
@@ -28,6 +29,11 @@ section {
 section:nth-of-type(2) {
     border-left: 1px solid #fff4;
     border-right: 1px solid #fff4;
+}
+
+section:nth-of-type(2), section:last-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 footer {
@@ -96,14 +102,10 @@ ul.donors {
         width: 70%;
     }
 
-    section:nth-of-type(1) {
-        border-top: 1px solid #fff4;
-        border-bottom: 1px solid #fff4;
-    }
-
     section:nth-of-type(2) {
         border: none;
-        order: -1;
+        border-top: 1px solid #fff4;
+        border-bottom: 1px solid #fff4;
     }
 
     ul.donors {
