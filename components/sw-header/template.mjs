@@ -15,7 +15,7 @@ template.innerHTML = `
             <li>
                 <h3>Frontend Course</h3>
                 <nav>
-                    <a href="#Frontend.SiliconWat.org"><button class="cohort">Join: Remote Cohort Frontend Program</button></a>
+                    <a href="#Frontend.SiliconWat.com"><button>eLearn: Frontend Music Course</button></a>
                     <h4>Learn</h4>
                     <menu>
                         <li><a>Watch Videos on Udemy</a></li>
@@ -31,7 +31,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Review</h4>
                     <menu>
-                        <li><a>Syntax Flashcards</a></li>
+                        <li><a>Syntax Flashcard Games</a></li>
                         <li class="cohort"><a>Writing Assignments on Medium</a></li>
                         <li class="cohort"><a>Mock Interviews on YouTube</a></li>
                     </menu>
@@ -47,13 +47,13 @@ template.innerHTML = `
                         <li><a>Live Demo: Music PWAs</a></li>
                     </menu>
                     <br>
-                    <a href="#Frontend.SiliconWat.com"><button>eLearn: Frontend Music Course</button></a>
+                    <a href="#Frontend.SiliconWat.org"><button class="cohort">Join: Remote Cohort Frontend Program</button></a>
                 </nav>
             </li>
             <li>
                 <h3>Backend Course</h3>
                 <nav>
-                    <a href="#Backend.SiliconWat.org"><button class="cohort">Join: Remote Cohort Backend Program</button></a>
+                    <a href="#Backend.SiliconWat.com"><button>eLearn: Backend Blockchain Course</button></a>
                     <h4>Learn</h4>
                     <menu>
                         <li><a>Watch Videos on Udemy</a></li>
@@ -69,7 +69,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Review</h4>
                     <menu>
-                        <li><a>Syntax Flashcards</a></li>
+                        <li><a>Syntax Flashcard Games</a></li>
                         <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
                         <li class="cohort"><a>Writing Assignments on Medium</a></li>
                         <li class="cohort"><a>Mock Interviews on YouTube</a></li>
@@ -86,13 +86,13 @@ template.innerHTML = `
                         <li><a>Live Demo: Blockchain dApps</a></li>
                     </menu>
                     <br>
-                    <a href="#Backend.SiliconWat.com"><button>eLearn: Backend Blockchain Course</button></a>
+                    <a href="#Backend.SiliconWat.org"><button class="cohort">Join: Remote Cohort Backend Program</button></a>
                 </nav>
             </li>
             <li>
                 <h3>iOS Course</h3>
                 <nav>
-                    <a href="#iOS.SiliconWat.org"><button class="cohort">Join: Remote Cohort iOS Program</button></a>
+                    <a href="#iOS.SiliconWat.com"><button>eLearn: iOS Metaverse Course</button></a>
                     <h4>Learn</h4>
                     <menu>
                         <li><a>Watch Videos on Udemy</a></li>
@@ -108,7 +108,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Review</h4>
                     <menu>
-                        <li><a>Syntax Flashcards</a></li>
+                        <li><a>Syntax Flashcard Games</a></li>
                         <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
                         <li class="cohort"><a>Writing Assignments on Medium</a></li>
                         <li class="cohort"><a>Mock Interviews on YouTube</a></li>
@@ -125,7 +125,7 @@ template.innerHTML = `
                         <li><a>Live Demo: Metaverse Apps</a></li>
                     </menu>
                     <br>
-                    <a href="#iOS.SiliconWat.com"><button>eLearn: iOS Metaverse Course</button></a>
+                    <a href="#iOS.SiliconWat.org"><button class="cohort">Join: Remote Cohort iOS Program</button></a>
                 </nav>
             </li>
             <li>
