@@ -117,19 +117,35 @@ menu li:hover {
 	cursor: pointer;
 }
 
-/*menu li a:not([href]) {
+menu li a:not([href]) {
 	opacity: 0.5;
 	cursor: default !important;
 }
 
-menu li input:not([oninput]) {
-	opacity: 0.5;
-	pointer-events: none;
-}*/
-
 select {
 	color: var(--palette-color-2);
 	border-color: currentColor;
+}
+
+button {
+	color: white;
+    background-color: var(--theme-color-2);
+    border-radius: 5px;
+	border: double 5px white;
+	padding: 3px 5px;
+}
+
+button:hover {
+	cursor: pointer;
+	border-color: var(--theme-color-2);
+}
+
+button.cohort {
+	background-color: purple;
+}
+
+li.cohort {
+	color: purple;
 }
 
 /*----------*/

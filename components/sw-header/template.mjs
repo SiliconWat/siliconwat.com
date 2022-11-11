@@ -21,20 +21,18 @@ template.innerHTML = `
                         <li><a>Watch Videos on Udemy</a></li>
                         <li><a>Read Textbook on Medium</a></li>
                         <li><a>Take Quizzes to Check Understanding</a></li>
+                        <li class="cohort"><a>Study Groups (Chat & Discussion Boards) on Discord</a></li>
                     </menu>
                     <h4>Practice</h4>
                     <menu>
-                        <li><a>Podcast: Motivation & Coding Music</a></li>
                         <li><a>Interactive Coding Exercises</a></li>
                         <li class="cohort"><a>Remote Pair Programming on Discord</a></li>
-                        <li class="cohort"><a>Students' Solo Projects on Codepen</a></li>
+                        <li class="cohort"><a>Solo Projects on Codepen</a></li>
                     </menu>
                     <h4>Review</h4>
                     <menu>
-                        <li><a>Live Demo: Music PWAs</a></li>
                         <li><a>Syntax Flashcards</a></li>
-                        <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
-                        <li class="cohort"><a>Students' Writings on Medium</a></li>
+                        <li class="cohort"><a>Writing Assignments on Medium</a></li>
                         <li class="cohort"><a>Mock Interviews on YouTube</a></li>
                     </menu>
                     <h4>Bonus: Advanced Lessons</h4>
@@ -42,6 +40,11 @@ template.innerHTML = `
                         <li><a>React and Redux</a></li>
                         <li><a>TypeScript</a></li>
                         <li><a>Web Audio Production</a></li>
+                    </menu>
+                    <h4>Bonus</h4>
+                    <menu>
+                        <li><a>Podcast: Motivation & Coding Music</a></li>
+                        <li><a>Live Demo: Music PWAs</a></li>
                     </menu>
                     <br>
                     <a href="#Frontend.SiliconWat.com"><button>eLearn: Frontend Music Course</button></a>
@@ -56,20 +59,19 @@ template.innerHTML = `
                         <li><a>Watch Videos on Udemy</a></li>
                         <li><a>Read Textbook on Medium</a></li>
                         <li><a>Take Quizzes to Check Understanding</a></li>
+                        <li class="cohort"><a>Study Groups (Chat & Discussion Boards) on Discord</a></li>
                     </menu>
                     <h4>Practice</h4>
                     <menu>
-                        <li><a>Podcast: Motivation & Coding Music</a></li>
                         <li><a>Interactive Coding Exercises</a></li>
                         <li class="cohort"><a>Remote Pair Programming on Discord</a></li>
-                        <li class="cohort"><a>Students' Solo Projects on Replit</a></li>
+                        <li class="cohort"><a>Solo Projects on Replit</a></li>
                     </menu>
                     <h4>Review</h4>
                     <menu>
-                        <li><a>Live Demo: Blockchain dApps</a></li>
                         <li><a>Syntax Flashcards</a></li>
                         <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
-                        <li class="cohort"><a>Students' Writings on Medium</a></li>
+                        <li class="cohort"><a>Writing Assignments on Medium</a></li>
                         <li class="cohort"><a>Mock Interviews on YouTube</a></li>
                     </menu>
                     <h4>Bonus: Advanced Lessons</h4>
@@ -77,6 +79,11 @@ template.innerHTML = `
                         <li><a>Alexa Music Skill</a></li>
                         <li><a>Quantum Physics & Computing</a></li>
                         <li><a>Kiitos Programming Language</a></li>
+                    </menu>
+                    <h4>Bonus</h4>
+                    <menu>
+                        <li><a>Podcast: Motivation & Coding Music</a></li>
+                        <li><a>Live Demo: Blockchain dApps</a></li>
                     </menu>
                     <br>
                     <a href="#Backend.SiliconWat.com"><button>eLearn: Backend Blockchain Course</button></a>
@@ -91,20 +98,19 @@ template.innerHTML = `
                         <li><a>Watch Videos on Udemy</a></li>
                         <li><a>Read Textbook on Medium</a></li>
                         <li><a>Take Quizzes to Check Understanding</a></li>
+                        <li class="cohort"><a>Study Groups (Chat & Discussion Boards) on Discord</a></li>
                     </menu>
                     <h4>Practice</h4>
                     <menu>
-                        <li><a>Podcast: Motivation & Coding Music</a></li>
                         <li><a>Interactive Coding Exercises</a></li>
                         <li class="cohort"><a>Remote Pair Programming on Discord</a></li>
-                        <li class="cohort"><a>Students' Solo Projects on GitHub</a></li>
+                        <li class="cohort"><a>Solo Projects on GitHub</a></li>
                     </menu>
                     <h4>Review</h4>
                     <menu>
-                        <li><a>Live Demo: Metaverse Apps</a></li>
                         <li><a>Syntax Flashcards</a></li>
                         <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
-                        <li class="cohort"><a>Students' Writings on Medium</a></li>
+                        <li class="cohort"><a>Writing Assignments on Medium</a></li>
                         <li class="cohort"><a>Mock Interviews on YouTube</a></li>
                     </menu>
                     <h4>Bonus: Advanced Lessons</h4>
@@ -112,6 +118,11 @@ template.innerHTML = `
                         <li><a>React Native</a></li>
                         <li><a>3D Animations</a></li>
                         <li><a>Deep Learning</a></li>
+                    </menu>
+                    <h4>Bonus</h4>
+                    <menu>
+                        <li><a>Podcast: Motivation & Coding Music</a></li>
+                        <li><a>Live Demo: Metaverse Apps</a></li>
                     </menu>
                     <br>
                     <a href="#iOS.SiliconWat.com"><button>eLearn: iOS Metaverse Course</button></a>
@@ -143,7 +154,7 @@ template.innerHTML = `
                 <h3>Coupons</h3>
                 <nav>
                     <a><button>Apply for Discounts</button></a>
-                    <h4>Inclusion & naversity</h4>
+                    <h4>Inclusion & Diversity</h4>
                     <menu>
                         <li><a>Women & Minorities</a></li>
                         <li><a>Ukrainian Refugees</a></li>
