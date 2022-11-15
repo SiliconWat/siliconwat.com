@@ -31,7 +31,7 @@ template.innerHTML = `
                     <ul>
                         <li><a href="https://talk.siliconwat.org">Silicon Wat</a></li>
                         <li><a href="https://twitter.com/siliconwat">Twitter</a></li>
-                        <li><a href="https://youtube.com/@siliconwat">YouTube</a></li>
+                        <li><a href="https://youtube.com/@SiliconWat">YouTube</a></li>
                         <li><a href="https://medium.com/@thonly">Medium</a></li>
                     </ul>
                 </div>
