@@ -2,6 +2,10 @@
     font-size: small;
 }
 
+/*section:first-child {
+    align-self: flex-start;
+}*/
+
 @media (max-width: 480px) {
     
 }

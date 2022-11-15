@@ -1,21 +1,14 @@
+import "./sw-sponsors/element.mjs";
+import { ORIGIN } from "/global.mjs";
 const template = document.createElement("template");
-const origin = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5500" : "https://thonly.org";
 
 template.innerHTML = `
-    <link rel="stylesheet" href="${origin}/components/tl-footer/shadow.css">
+    <link rel="stylesheet" href="${ORIGIN}/components/tl-footer/shadow.css">
     <link rel="stylesheet" href="components/sw-footer/shadow.css">
     <nav>
         <main>
             <section>
-                <div>
-                    <h5>Sponsors</h5>
-                    <ul class="donors">
-                        <li><a href="https://github.com/heartbank"><img src="https://github.com/heartbank.png?size=100"></a></li>
-                        <li><a href="https://github.com/siliconwat"><img src="https://github.com/siliconwat.png?size=100"></a></li>
-                        <li><a href="https://github.com/thonlymetaverse"><img src="https://github.com/thonlymetaverse.png?size=100"></a></li>
-                        <li><a href="https://github.com/nhiakou"><img src="https://github.com/nhiakou.png?size=100"></a></li>
-                    </ul>
-                </div>
+                <sw-sponsors></sw-sponsors>
             </section>
             <section>
                 <div>
