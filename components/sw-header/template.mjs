@@ -49,7 +49,7 @@ template.innerHTML = `
                         <li><a>Live Demo: Music PWAs</a></li>
                     </menu>
                     <br>
-                    <a href="#Frontend.SiliconWat.org"><button class="cohort">Join: Remote Cohort Frontend Program</button></a>
+                    <a href="#Frontend.SiliconWat.org"><button class="cohort">Join: Remote Frontend Cohort Program</button></a>
                 </nav>
             </li>
             <li>
@@ -88,7 +88,7 @@ template.innerHTML = `
                         <li><a>Live Demo: Blockchain dApps</a></li>
                     </menu>
                     <br>
-                    <a href="#Backend.SiliconWat.org"><button class="cohort">Join: Remote Cohort Backend Program</button></a>
+                    <a href="#Backend.SiliconWat.org"><button class="cohort">Join: Remote Backend Cohort Program</button></a>
                 </nav>
             </li>
             <li>
@@ -127,7 +127,7 @@ template.innerHTML = `
                         <li><a>Live Demo: Metaverse Apps</a></li>
                     </menu>
                     <br>
-                    <a href="#iOS.SiliconWat.org"><button class="cohort">Join: Remote Cohort iOS Program</button></a>
+                    <a href="#iOS.SiliconWat.org"><button class="cohort">Join: Remote iOS Cohort Program</button></a>
                 </nav>
             </li>
             <li>
