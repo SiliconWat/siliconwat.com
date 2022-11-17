@@ -141,7 +141,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Rewards</h4>
                     <menu>
-                        <li class="cohort"><a>Committment Deposit Refund</a></li>
+                        <li class="cohort"><a>Commitment Loan Deposit</a></li>
                         <li class="cohort"><a>Course Completion Bonus</a></li>
                         <li class="cohort"><a>Graduation Mega Bonus</a></li>
                     </menu>
