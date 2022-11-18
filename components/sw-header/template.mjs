@@ -78,6 +78,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Bonus: Advanced Lessons</h4>
                     <menu>
+                        <li><a>MacOS Electron</a></li>
                         <li><a>Alexa Music Skill</a></li>
                         <li><a>Quantum Physics & Computing</a></li>
                         <li><a>Kiitos Programming Language</a></li>
