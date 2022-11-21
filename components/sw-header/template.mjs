@@ -138,6 +138,7 @@ template.innerHTML = `
                     <h4>Awards</h4>
                     <menu>
                         <li class="cohort"><a>Course Completion Certification</a></li>
+                        <li class="cohort"><a>Best Student Project</a></li>
                         <li class="cohort"><a>Graduation Diploma</a></li>
                     </menu>
                     <h4>Rewards</h4>
