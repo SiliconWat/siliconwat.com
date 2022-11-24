@@ -22,18 +22,18 @@ template.innerHTML = `
                     <menu>
                         <li><a>Watch Videos on Udemy</a></li>
                         <li><a>Read Textbook on Medium</a></li>
-                        <li><a>Take Quizzes to Check Understanding</a></li>
+                        <li class="coin"><a>Take Quizzes to Check Understanding</a></li>
                         <li class="cohort"><a>Study Groups (Chat & Discussion Boards) on Discord</a></li>
                     </menu>
                     <h4>Practice</h4>
                     <menu>
-                        <li><a>Interactive Coding Exercises</a></li>
+                        <li class="coin"><a>Interactive Coding Exercises</a></li>
                         <li class="cohort"><a>Remote Pair Programming on Discord</a></li>
                         <li class="cohort"><a>Solo Projects on Codepen</a></li>
                     </menu>
                     <h4>Review</h4>
                     <menu>
-                        <li><a>Syntax Flashcard Games</a></li>
+                        <li class="coin"><a>Syntax Flashcard Games</a></li>
                         <li class="cohort"><a>Writing Assignments on Medium</a></li>
                         <li class="cohort"><a>Mock Interviews on YouTube</a></li>
                     </menu>
@@ -60,18 +60,18 @@ template.innerHTML = `
                     <menu>
                         <li><a>Watch Videos on Udemy</a></li>
                         <li><a>Read Textbook on Medium</a></li>
-                        <li><a>Take Quizzes to Check Understanding</a></li>
+                        <li class="coin"><a>Take Quizzes to Check Understanding</a></li>
                         <li class="cohort"><a>Study Groups (Chat & Discussion Boards) on Discord</a></li>
                     </menu>
                     <h4>Practice</h4>
                     <menu>
-                        <li><a>Interactive Coding Exercises</a></li>
+                        <li class="coin"><a>Interactive Coding Exercises</a></li>
                         <li class="cohort"><a>Remote Pair Programming on Discord</a></li>
                         <li class="cohort"><a>Solo Projects on Replit</a></li>
                     </menu>
                     <h4>Review</h4>
                     <menu>
-                        <li><a>Syntax Flashcard Games</a></li>
+                        <li class="coin"><a>Syntax Flashcard Games</a></li>
                         <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
                         <li class="cohort"><a>Writing Assignments on Medium</a></li>
                         <li class="cohort"><a>Mock Interviews on YouTube</a></li>
@@ -100,18 +100,18 @@ template.innerHTML = `
                     <menu>
                         <li><a>Watch Videos on Udemy</a></li>
                         <li><a>Read Textbook on Medium</a></li>
-                        <li><a>Take Quizzes to Check Understanding</a></li>
+                        <li class="coin"><a>Take Quizzes to Check Understanding</a></li>
                         <li class="cohort"><a>Study Groups (Chat & Discussion Boards) on Discord</a></li>
                     </menu>
                     <h4>Practice</h4>
                     <menu>
-                        <li><a>Interactive Coding Exercises</a></li>
+                        <li class="coin"><a>Interactive Coding Exercises</a></li>
                         <li class="cohort"><a>Remote Pair Programming on Discord</a></li>
                         <li class="cohort"><a>Solo Projects on GitHub</a></li>
                     </menu>
                     <h4>Review</h4>
                     <menu>
-                        <li><a>Syntax Flashcard Games</a></li>
+                        <li class="coin"><a>Syntax Flashcard Games</a></li>
                         <li class="cohort"><a>Group Chat & Discussion Boards</a></li>
                         <li class="cohort"><a>Writing Assignments on Medium</a></li>
                         <li class="cohort"><a>Mock Interviews on YouTube</a></li>
@@ -134,7 +134,7 @@ template.innerHTML = `
             <li>
                 <h3>Graduation</h3>
                 <nav>
-                    <a><button>Earn SW Coins</button></a>
+                    <a><button class="coin">Earn SW Coins</button></a>
                     <h4>Awards</h4>
                     <menu>
                         <li class="cohort"><a>Best Project Showcase</a></li>
@@ -158,7 +158,7 @@ template.innerHTML = `
             <li>
                 <h3>Coupons</h3>
                 <nav>
-                    <a><button>Apply for Discounts</button></a>
+                    <a><button class="coin">Redeem SW Coins</button></a>
                     <h4>Inclusion & Diversity</h4>
                     <menu>
                         <li><a>Women & Minorities</a></li>
@@ -170,6 +170,12 @@ template.innerHTML = `
                         <li><a>Cambodia</a></li>
                         <li><a>Ukraine</a></li>
                         <li><a>United States</a></li>
+                    </menu>
+                    <h4>Terms</h4>
+                    <menu>
+                        <li><a>FAQs</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>Privacy</a></li>
                     </menu>
                 </nav>
             </li>
