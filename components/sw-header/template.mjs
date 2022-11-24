@@ -137,8 +137,8 @@ template.innerHTML = `
                     <a><button>Earn SW Coins</button></a>
                     <h4>Awards</h4>
                     <menu>
+                        <li class="cohort"><a>Best Project Showcase</a></li>
                         <li class="cohort"><a>Course Completion Certification</a></li>
-                        <li class="cohort"><a>Best Student Project</a></li>
                         <li class="cohort"><a>Graduation Diploma</a></li>
                     </menu>
                     <h4>Rewards</h4>
@@ -149,7 +149,8 @@ template.innerHTML = `
                     </menu>
                     <h4>Benefits</h4>
                     <menu>
-                        <li class="cohort"><a>Mock Technical Interviews</a></li>
+                        <li class="cohort"><a>Volunteer Tutor</a></li>
+                        <li class="cohort"><a>Mock Technical Interview</a></li>
                         <li class="cohort"><a>Campus Apprenticeship Program</a></li>
                     </menu>
                 </nav>
