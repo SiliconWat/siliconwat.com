@@ -42,12 +42,12 @@ template.innerHTML = `
                         <li><a>Podcast: Motivation & Coding Music</a></li>
                         <li><a>Live Demo: Music PWAs</a></li>
                     </menu>
-                    <h4>Bonus: Advanced Lessons</h4>
+                    <h4>Bonus: Advanced Lessons on YouTube</h4>
                     <menu>
                         <li><a>React and Redux</a></li>
                         <li><a>Web Audio Production</a></li>
                     </menu>
-                    <h4>Bonus: 40 Problems, Solutions and Explanations (Series)</h4>
+                    <h4>Medium Members: 40 Problems, Solutions and Explanations (Series)</h4>
                     <menu>
                         <li><a>Interview Questions about HTML, CSS and JavaScript</a></li>
                         <li><a>Interview Questions about Web Components</a></li>
@@ -87,7 +87,7 @@ template.innerHTML = `
                         <li><a>Podcast: Motivation & Coding Music</a></li>
                         <li><a>Live Demo: Blockchain dApps</a></li>
                     </menu>
-                    <h4>Bonus: Advanced Lessons</h4>
+                    <h4>Bonus: Advanced Lessons on YouTube</h4>
                     <menu>
                         <li><a>TypeScript</a></li>
                         <li><a>MacOS Electron</a></li>
@@ -95,7 +95,7 @@ template.innerHTML = `
                         <li><a>Quantum Physics & Computing</a></li>
                         <li><a>Kiitos Programming Language</a></li>
                     </menu>
-                    <h4>Bonus: 40 Problems, Solutions and Explanations (Series)</h4>
+                    <h4>Medium Members: 40 Problems, Solutions and Explanations (Series)</h4>
                     <menu>
                         <li><a>Interview Questions about Node</a></li>
                         <li><a>Interview Questions about Blockchain</a></li>
@@ -134,13 +134,13 @@ template.innerHTML = `
                         <li><a>Podcast: Motivation & Coding Music</a></li>
                         <li><a>Live Demo: Metaverse Apps</a></li>
                     </menu>
-                    <h4>Bonus: Advanced Lessons</h4>
+                    <h4>Bonus: Advanced Lessons on YouTube</h4>
                     <menu>
                         <li><a>React Native</a></li>
                         <li><a>3D Animations</a></li>
                         <li><a>Deep Learning</a></li>
                     </menu>
-                    <h4>Bonus: 40 Problems, Solutions and Explanations (Series)</h4>
+                    <h4>Medium Members: 40 Problems, Solutions and Explanations (Series)</h4>
                     <menu>
                         <li><a>Interview Questions about iOS</a></li>
                         <li><a>Data Stuctures and Algorithms in Swift</a></li>
