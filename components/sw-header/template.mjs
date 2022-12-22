@@ -194,6 +194,8 @@ template.innerHTML = `
                     </menu>
                     <h4>Terms</h4>
                     <menu>
+                        <li><a>Medium Members</a></li>
+                        <li><a>Refund Policy</a></li>
                         <li><a>FAQs</a></li>
                         <li><a>Service</a></li>
                         <li><a>Privacy</a></li>
