@@ -12,6 +12,10 @@ main {
     text-align: center;
     opacity: 0.5;
 }
+
+button {
+    font-size: larger;
+}
   
 @media (max-width: 480px) {
     :host {
@@ -23,8 +27,6 @@ main {
     }
 
     button {
-        float: right;
-        margin-right: 10%;
-        margin-top: 7%;
+        margin: 7% 10%;
     }
 }

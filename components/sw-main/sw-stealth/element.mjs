@@ -11,13 +11,8 @@ class SwStealth extends HTMLElement {
         this.style.display = 'block';
         const a = this.shadowRoot.querySelector('a');
         const button = this.shadowRoot.querySelector('button');
-
-        if (origin) {
-            a.href = "https://" + origin;
-            button.textContent = origin;
-        } else {
-            a.style.display = 'none';
-        }
+        a.href = origin ? "https://" + origin : "https://medium.com/siliconwat/trilogy-curriculum-for-complete-beginners-aspiring-to-become-fullstack-engineers-28f3b03327d4?sk=b40d217c5ca765a93465bd2212d49025";
+        button.textContent = origin || "Trilogy Curriculum for Complete Beginners Aspiring to Become Fullstack Engineers";
     }
 }
 
