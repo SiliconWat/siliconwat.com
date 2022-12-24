@@ -39,7 +39,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Bonus</h4>
                     <menu>
-                        <li><a href="#podcast.thonly.org">Code of Success Podcast</a></li>
+                        <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
                         <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a>Live Demo: Music PWAs</a></li>
                     </menu>
@@ -85,7 +85,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Bonus</h4>
                     <menu>
-                        <li><a href="#podcast.thonly.org">Code of Success Podcast</a></li>
+                        <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
                         <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a>Live Demo: Blockchain dApps</a></li>
                     </menu>
@@ -133,7 +133,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Bonus</h4>
                     <menu>
-                        <li><a href="#podcast.thonly.org">Code of Success Podcast</a></li>
+                        <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
                         <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a>Live Demo: Metaverse Apps</a></li>
                     </menu>
