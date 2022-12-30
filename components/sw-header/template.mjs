@@ -39,6 +39,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Bonus</h4>
                     <menu>
+                        <li><a href="#timer.thonly.org">Pomodoro Productivity Timer</a></li>
                         <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
                         <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a>Live Demo: Music PWAs</a></li>
@@ -85,6 +86,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Bonus</h4>
                     <menu>
+                        <li><a href="#timer.thonly.org">Pomodoro Productivity Timer</a></li>
                         <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
                         <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a>Live Demo: Blockchain dApps</a></li>
@@ -133,6 +135,7 @@ template.innerHTML = `
                     </menu>
                     <h4>Bonus</h4>
                     <menu>
+                        <li><a href="#timer.thonly.org">Pomodoro Productivity Timer</a></li>
                         <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
                         <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a>Live Demo: Metaverse Apps</a></li>
