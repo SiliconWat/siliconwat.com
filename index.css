@@ -14,7 +14,7 @@ header {
     background-color: white;
 }
 
-tl-header {
+sw-header {
     --theme-color-1: var(--palette-color-1);
     --theme-color-2: var(--palette-color-2);
 }
@@ -23,6 +23,6 @@ footer {
     background-color: var(--palette-color-5);
 }
 
-tl-footer {
+sw-footer {
     --theme-color: var(--palette-color-5);
 }
