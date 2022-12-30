@@ -1,9 +1,9 @@
-import { ORIGIN, THONLY } from "/global.mjs";
+import { THONLY, UNIVERSITY } from "https://thonly.org/global.mjs";
 const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="${THONLY}/components/tl-footer/tl-donors/shadow.css">
-    <link rel="stylesheet" href="${ORIGIN}/components/sw-footer/sw-sponsors/shadow.css">
+    <link rel="stylesheet" href="${UNIVERSITY}/components/sw-footer/sw-sponsors/shadow.css">
     <h5>Sponsors</h5>
     <ul class="donors">
         <li><a href="https://github.com/heartbank"><img src="https://github.com/heartbank.png?size=100"></a></li>
