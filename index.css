@@ -14,13 +14,13 @@ header {
     background-color: white;
 }
 
+footer {
+    background-color: var(--palette-color-5);
+}
+
 sw-header {
     --theme-color-1: var(--palette-color-1);
     --theme-color-2: var(--palette-color-2);
-}
-
-footer {
-    background-color: var(--palette-color-5);
 }
 
 sw-footer {
