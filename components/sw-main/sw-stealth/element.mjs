@@ -10,7 +10,7 @@ class SwStealth extends HTMLElement {
     render(origin) {
         const a = this.shadowRoot.getElementById('follow');
         a.href = origin ? "https://" + origin : "https://twitter.com/siliconwat";
-        a.firstElementChild.innerHTML = origin || "<i>Currently in development...</i><br><b>Follow</b> for real-time updates!";
+        a.firstElementChild.innerHTML = origin || "<b>Follow</b> for real-time updates!";
         this.style.display = 'block';
     }
 }
