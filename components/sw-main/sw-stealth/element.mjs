@@ -8,11 +8,10 @@ class SwStealth extends HTMLElement {
     }
 
     render(origin) {
+        const a = this.shadowRoot.getElementById('follow');
+        a.href = origin ? "https://" + origin : "https://twitter.com/siliconwat";
+        a.firstElementChild.innerHTML = origin || "<i>Currently in development...</i><br><b>Follow</b> for real-time updates!";
         this.style.display = 'block';
-        const a = this.shadowRoot.querySelector('a');
-        const button = this.shadowRoot.querySelector('button');
-        a.href = origin ? "https://" + origin : "https://medium.com/siliconwat/trilogy-curriculum-for-complete-beginners-aspiring-to-become-fullstack-engineers-28f3b03327d4?sk=b40d217c5ca765a93465bd2212d49025";
-        button.textContent = origin || "Trilogy Curriculum for Complete Beginners";
     }
 }
 
