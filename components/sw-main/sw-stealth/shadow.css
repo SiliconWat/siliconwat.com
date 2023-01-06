@@ -24,6 +24,7 @@ a {
 button {
     font-size: larger;
     cursor: pointer;
+    padding: 3px 20px;
 }
   
 @media (max-width: 480px) {
