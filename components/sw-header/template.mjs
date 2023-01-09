@@ -173,8 +173,9 @@ template.innerHTML = `
                     </menu>
                     <h4>Benefits</h4>
                     <menu>
-                        <li class="cohort"><a>Volunteer Tutor</a></li>
                         <li class="cohort"><a>Mock Technical Interview</a></li>
+                        <li class="cohort"><a>Volunteer Tutor</a></li>
+                        <li class="cohort"><a>Paid Freelancer</a></li>
                         <li class="cohort"><a>Campus Apprenticeship Program</a></li>
                     </menu>
                 </nav>
