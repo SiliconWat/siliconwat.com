@@ -188,7 +188,7 @@ template.innerHTML = `
                     <menu>
                         <li><a>Women & Minorities</a></li>
                         <li><a>Ukrainian Refugees</a></li>
-                        <li><a>Cambodian Genocide</a></li>
+                        <li><a>Cambodian Survivors</a></li>
                     </menu>
                     <h4>Campuses</h4>
                     <menu>
