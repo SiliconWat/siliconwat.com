@@ -6,8 +6,8 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/sw-header/shadow.css">
     <header>
         <section>
-            <a href="/"><img src="siliconwat.png"></a>
-            <a href="/"><h1>Silicon Wat University</h1></a>
+            <a href="#"><img src="siliconwat.png"></a>
+            <h1>Silicon Wat University</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -17,32 +17,32 @@ template.innerHTML = `
             <li>
                 <h3>Frontend Course</h3>
                 <nav>
-                    <a href="#Frontend.SiliconWat.com"><button>eLearn: Online Frontend Music Course</button></a>
+                    <a href="https://frontend.siliconwat.com"><button>eLearn: Online Frontend Music Course</button></a>
                     <h4>Learn</h4>
                     <menu>
-                        <li><a>Watch Videos on Udemy</a></li>
-                        <li><a>Read Textbook on Medium</a></li>
-                        <li class="coin"><a>Take Quizzes to Check Understanding</a></li>
-                        <li class="cohort"><a>Study Groups (Chat & Discussion Boards) on Discord</a></li>
+                        <li><a href="#frontend-udemy">Watch Videos on Udemy</a></li>
+                        <li><a href="#frontend-medium">Read Textbook on Medium</a></li>
+                        <li class="coin"><a href="#frontend-quiz">Take Quizzes to Check Understanding</a></li>
+                        <li class="cohort"><a href="#frontend-study-group">Study Groups (Chat & Discussion Boards) on Discord</a></li>
                     </menu>
                     <h4>Practice</h4>
                     <menu>
-                        <li class="coin"><a>Interactive Coding Exercises</a></li>
-                        <li class="cohort"><a>Remote Pair Programming on Discord</a></li>
-                        <li class="cohort"><a>Solo Projects on Codepen</a></li>
+                        <li class="coin"><a href="#frontend-coding-exercise">Interactive Coding Exercises</a></li>
+                        <li class="cohort"><a href="#frontend-pair-programming">Remote Pair Programming on Discord</a></li>
+                        <li class="cohort"><a href="#frontend-project">Solo Projects on Codepen</a></li>
                     </menu>
                     <h4>Review</h4>
                     <menu>
-                        <li class="coin"><a>Syntax Flashcard Games</a></li>
-                        <li class="cohort"><a>Writing Assignments on Medium</a></li>
-                        <li class="cohort"><a>Mock Interviews on YouTube</a></li>
+                        <li class="coin"><a href="#frontend-flashcard">Syntax Flashcard Games</a></li>
+                        <li class="cohort"><a href="#frontend-writing">Writing Assignments on Medium</a></li>
+                        <li class="cohort"><a href="#frontend-interview">Mock Interviews on YouTube</a></li>
                     </menu>
                     <h4>Bonus</h4>
                     <menu>
-                        <li><a href="#timer.thonly.org">Pomodoro Productivity Timer</a></li>
-                        <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
-                        <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
-                        <li><a>Live Demo: Music PWAs</a></li>
+                        <li><a href="https://timer.thonly.org">Pomodoro Productivity Timer</a></li>
+                        <li><a href="https://podcast.thonly.org">The Code of Success Podcast</a></li>
+                        <li><a href="https://radio.thonly.org">Coding Music Radio Station</a></li>
+                        <li><a href="https://music.siliconwat.com">Live Demo: Music PWAs</a></li>
                     </menu>
                     <h4>Bonus: Advanced Lessons on YouTube</h4>
                     <menu>
@@ -57,13 +57,13 @@ template.innerHTML = `
                         <li><a>Data Stuctures and Algorithms in JavaScript</a></li>
                     </menu>
                     <br>
-                    <a href="#Frontend.SiliconWat.org"><button class="cohort">eJoin: Remote Frontend Cohort Program</button></a>
+                    <a href="https://frontend.siliconwat.org"><button class="cohort">eJoin: Remote Frontend Cohort Program</button></a>
                 </nav>
             </li>
             <li>
                 <h3>Backend Course</h3>
                 <nav>
-                    <a href="#Backend.SiliconWat.com"><button>eLearn: Online Backend Blockchain Course</button></a>
+                    <a href="https://backend.siliconwat.com"><button>eLearn: Online Backend Blockchain Course</button></a>
                     <h4>Learn</h4>
                     <menu>
                         <li><a>Watch Videos on Udemy</a></li>
@@ -86,9 +86,9 @@ template.innerHTML = `
                     </menu>
                     <h4>Bonus</h4>
                     <menu>
-                        <li><a href="#timer.thonly.org">Pomodoro Productivity Timer</a></li>
-                        <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
-                        <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
+                        <li><a href="https://timer.thonly.org">Pomodoro Productivity Timer</a></li>
+                        <li><a href="https://podcast.thonly.org">The Code of Success Podcast</a></li>
+                        <li><a href="https://radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a>Live Demo: Blockchain dApps</a></li>
                     </menu>
                     <h4>Bonus: Advanced Lessons on YouTube</h4>
@@ -106,13 +106,13 @@ template.innerHTML = `
                         <li><a>Data Stuctures and Algorithms in TypeScript</a></li>
                     </menu>
                     <br>
-                    <a href="#Backend.SiliconWat.org"><button class="cohort">eJoin: Remote Backend Cohort Program</button></a>
+                    <a href="https://backend.siliconwat.org"><button class="cohort">eJoin: Remote Backend Cohort Program</button></a>
                 </nav>
             </li>
             <li>
                 <h3>iOS Course</h3>
                 <nav>
-                    <a href="#iOS.SiliconWat.com"><button>eLearn: Online iOS Metaverse Course</button></a>
+                    <a href="https://ios.siliconwat.com"><button>eLearn: Online iOS Metaverse Course</button></a>
                     <h4>Learn</h4>
                     <menu>
                         <li><a>Watch Videos on Udemy</a></li>
@@ -135,9 +135,9 @@ template.innerHTML = `
                     </menu>
                     <h4>Bonus</h4>
                     <menu>
-                        <li><a href="#timer.thonly.org">Pomodoro Productivity Timer</a></li>
-                        <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
-                        <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
+                        <li><a href="https://timer.thonly.org">Pomodoro Productivity Timer</a></li>
+                        <li><a href="https://podcast.thonly.org">The Code of Success Podcast</a></li>
+                        <li><a href="https://radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a>Live Demo: Metaverse Apps</a></li>
                     </menu>
                     <h4>Bonus: Advanced Lessons on YouTube</h4>
@@ -152,57 +152,56 @@ template.innerHTML = `
                         <li><a>Data Stuctures and Algorithms in Swift</a></li>
                     </menu>
                     <br>
-                    <a href="#iOS.SiliconWat.org"><button class="cohort">eJoin: Remote iOS Cohort Program</button></a>
+                    <a href="https://ios.siliconwat.org"><button class="cohort">eJoin: Remote iOS Cohort Program</button></a>
                 </nav>
             </li>
             <li>
                 <h3>Graduation</h3>
                 <nav>
-                    <a><button class="coin">Earn SW Coins</button></a>
+                    <a href="#coin"><button class="coin">Earn SW Coins</button></a>
                     <h4>Awards</h4>
                     <menu>
-                        <li class="cohort"><a>Best Project Showcase</a></li>
-                        <li class="cohort"><a>Course Completion Certification</a></li>
-                        <li class="cohort"><a>Graduation Diploma</a></li>
+                        <li class="cohort"><a href="#showcase">Best Project Showcase</a></li>
+                        <li class="cohort"><a href="#certification">Course Completion Certification</a></li>
+                        <li class="cohort"><a href="#diploma">Graduation Diploma</a></li>
                     </menu>
                     <h4>Rewards</h4>
                     <menu>
-                        <li class="cohort"><a>Commitment Loan Deposit</a></li>
-                        <li class="cohort"><a>Course Completion Bonus</a></li>
-                        <li class="cohort"><a>Graduation Mega Bonus</a></li>
+                        <li class="cohort"><a href="#deposit">Commitment Loan Deposit</a></li>
+                        <li class="cohort"><a href="#course-bonus">Course Completion Bonus</a></li>
+                        <li class="cohort"><a href="#graduation-bonus">Graduation Mega Bonus</a></li>
                     </menu>
                     <h4>Benefits</h4>
                     <menu>
-                        <li class="cohort"><a>Mock Technical Interview</a></li>
-                        <li class="cohort"><a>Volunteer Tutor</a></li>
-                        <li class="cohort"><a>Paid Freelancer</a></li>
-                        <li class="cohort"><a>Campus Apprenticeship Program</a></li>
+                        <li class="cohort"><a href="#interview">Mock Technical Interview</a></li>
+                        <li class="cohort"><a href="#tutor">Volunteer Tutor</a></li>
+                        <li class="cohort"><a href="#freelancer">Paid Freelancer</a></li>
+                        <li class="cohort"><a href="#apprenticeship">Campus Apprenticeship Program</a></li>
                     </menu>
                 </nav>
             </li>
             <li>
                 <h3>Coupons</h3>
                 <nav>
-                    <a><button class="coin">Redeem SW Coins</button></a>
+                    <a href="#coin"><button class="coin">Redeem SW Coins</button></a>
                     <h4>Inclusion & Diversity</h4>
                     <menu>
-                        <li><a>Women & Minorities</a></li>
-                        <li><a>Ukrainian Refugees</a></li>
-                        <li><a>Cambodian Survivors</a></li>
+                        <li><a href="#minorities">Women & Minorities</a></li>
+                        <li><a href="#refugees">Ukrainian Refugees</a></li>
+                        <li><a href="#survivors">Cambodian Survivors</a></li>
                     </menu>
                     <h4>Campuses</h4>
                     <menu>
-                        <li><a>Cambodia</a></li>
-                        <li><a>Ukraine</a></li>
-                        <li><a>United States</a></li>
+                        <li><a href="#cambodia">Cambodia</a></li>
+                        <li><a href="#ukraine">Ukraine</a></li>
+                        <li><a href="#usa">United States</a></li>
                     </menu>
                     <h4>Terms</h4>
                     <menu>
-                        <li><a>Medium Members</a></li>
-                        <li><a>Refund Policy</a></li>
-                        <li><a>FAQs</a></li>
-                        <li><a>Service</a></li>
-                        <li><a>Privacy</a></li>
+                        <li><a href="#refund">Refund Policy</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#privacy">Privacy</a></li>
                     </menu>
                 </nav>
             </li>

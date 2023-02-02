@@ -1,23 +1,39 @@
+import { THONLY } from 'https://thonly.org/global.mjs';
+import kiitos from "./kiitos.mjs";
 import template from './template.mjs';
 
 class SwMain extends HTMLElement {
-    #hash = "SW-STEALTH";
-
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
-        window.addEventListener("hashchange", event => window.location.reload());
+        window.addEventListener("hashchange", event => this.#render(false));
     }
 
-    connectedCallback() {
+    async connectedCallback() {
+        await import(`${THONLY}/components/tl-main/tl-kiitos/element.mjs`);
+        await import(`${THONLY}/components/tl-main/tl-robot/element.mjs`);
+        this.#render(true);
+    }
+
+    #render(refresh) {
+        const page = window.location.hash.substring(1);
+        this.shadowRoot.querySelectorAll('header, main, footer').forEach(element => element.style.display = 'none');
+        
+        if (page) {
+            this.shadowRoot.querySelector('tl-kiitos').render(kiitos[page]);
+            this.shadowRoot.querySelector('main').style.display = 'block';
+        } else {
+            const a = this.shadowRoot.getElementById('follow');
+            a.href = "https://twitter.com/siliconwat";
+            a.firstElementChild.innerHTML = "<b>Follow</b> for real-time updates!";
+            this.shadowRoot.querySelector('header').style.display = 'block';
+            this.shadowRoot.querySelector('footer').style.display = 'block';
+        }
+        
         this.style.display = 'block';
-        this.#render();
-    }
-
-    #render() {
-        this.shadowRoot.querySelector("slot").assignedElements().forEach(element => element.style.display = 'none');
-        this.shadowRoot.querySelector("slot").assignedElements().find(element => element.tagName === this.#hash).render(window.location.hash.substring(1));
+        if (refresh) setTimeout(() => document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" }), 300)
+        else document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" });
     }
 }
 

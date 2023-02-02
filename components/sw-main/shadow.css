@@ -1,10 +1,57 @@
 :host {
-    display: none;
-    font-size: medium;
+  display: none;
+  font-size: medium;
+  position: relative;
+  color: white;
 }
 
-slot {
-    color: white;
+header, main, footer {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  opacity: 0.5;
+}
+
+main {
+  text-align: center;
+  margin-top: 5%;
+}
+
+footer {    
+  margin-top: 20%;
+  opacity: 0.5;
+  text-align: left;
+  left: 5%;
+}
+
+h1 {
+  margin-top: 1.5%;
+}
+
+a {
+  color: currentColor;
+}
+
+button {
+  font-size: large;
+  padding: 5px 40px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  :host {
+      font-size: small;
+  }
+
+  h1 {
+      margin-top: 0.5%;
+      font-size: large;
+  }
 }
 
 /*======*/
