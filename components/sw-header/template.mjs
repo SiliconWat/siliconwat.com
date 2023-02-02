@@ -158,7 +158,7 @@ template.innerHTML = `
             <li>
                 <h3>Graduation</h3>
                 <nav>
-                    <a href="#coin"><button class="coin">Earn SW Coins</button></a>
+                    <a href="#earn-coins"><button class="coin">Earn SW Coins</button></a>
                     <h4>Awards</h4>
                     <menu>
                         <li class="cohort"><a href="#showcase">Best Project Showcase</a></li>
@@ -183,7 +183,7 @@ template.innerHTML = `
             <li>
                 <h3>Coupons</h3>
                 <nav>
-                    <a href="#coin"><button class="coin">Redeem SW Coins</button></a>
+                    <a href="#redeem-coins"><button class="coin">Redeem SW Coins</button></a>
                     <h4>Inclusion & Diversity</h4>
                     <menu>
                         <li><a href="#minorities">Women & Minorities</a></li>
