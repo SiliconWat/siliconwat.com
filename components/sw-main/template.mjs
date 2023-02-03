@@ -13,7 +13,7 @@ template.innerHTML = `
         <tl-kiitos></tl-kiitos>
     </main>
     <footer>
-        <!--<tl-robot></tl-robot>-->
+        <tl-robot></tl-robot>
     </footer>
 
     <svg viewBox="0 0 2880.93 1239.28">
