@@ -51,10 +51,10 @@ template.innerHTML = `
                     </menu>
                     <h4>Medium Members: 40 Problems, Solutions and Explanations (Series)</h4>
                     <menu>
-                        <li><a>Interview Questions about HTML, CSS and JavaScript</a></li>
-                        <li><a>Interview Questions about Web Components</a></li>
-                        <li><a>Interview Questions about React and Redux</a></li>
-                        <li><a>Data Stuctures and Algorithms in JavaScript</a></li>
+                        <li><a href="https://medium.com/@thonly/list/frontend-interview-questions-html-css-and-javascript-ad43867a247c">Interview Questions about HTML, CSS and JavaScript</a></li>
+                        <li><a href="https://medium.com/@thonly/list/frontend-interview-questions-web-components-501621bd5b75">Interview Questions about Web Components</a></li>
+                        <li><a href="https://medium.com/@thonly/list/frontend-interview-questions-react-and-redux-d513a7ab6b9d">Interview Questions about React and Redux</a></li>
+                        <li><a href="https://medium.com/@thonly/list/frontend-interview-questions-data-structures-and-algorithms-caef4e6f1a6f">Data Stuctures and Algorithms in JavaScript</a></li>
                     </menu>
                     <br>
                     <a href="https://frontend.siliconwat.org"><button class="cohort">eJoin: Remote Frontend Cohort Program</button></a>
