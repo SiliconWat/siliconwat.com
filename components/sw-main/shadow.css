@@ -50,6 +50,14 @@ button {
       font-size: large;
   }
 
+  main {
+    margin-top: 2%;
+  }
+
+  tl-kiitos {
+    --width: 50vw;
+  }
+
   tl-robot {
     display: none;
   }
