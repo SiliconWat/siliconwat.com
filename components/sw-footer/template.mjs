@@ -49,8 +49,8 @@ template.innerHTML = `
                 <option value="en">English</option>
                 <option value="km" disabled>Khmer</option>
                 <option value="ru" disabled>Russian</option>
-                <option value="es" disabled>Spanish</option>
-                <option value="zh" disabled>Chinese</option>
+                <!--<option value="es" disabled>Spanish</option>
+                <option value="zh" disabled>Chinese</option>-->
             </select>
             <small><a href="https://siliconwat.org">Silicon Wat Campus</a> &copy; 2023</small>
         </footer>
