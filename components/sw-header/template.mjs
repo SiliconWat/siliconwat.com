@@ -43,7 +43,7 @@ template.innerHTML = `
                             <li><a href="https://timer.thonly.org">Pomodoro Productivity Timer</a></li>
                             <li><a href="https://podcast.thonly.org">The Code of Success Podcast</a></li>
                             <li><a href="https://radio.thonly.org">Coding Music Radio Station</a></li>
-                            <li><a href="https://music.siliconwat.com">Live Demo: Music PWAs</a></li>
+                            <li><a href="https://music.siliconwat.dev">Live Demo: Music PWAs</a></li>
                         </menu>
                         <h4>Bonus: Advanced Lessons on YouTube</h4>
                         <menu>
