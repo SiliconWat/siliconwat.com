@@ -9,7 +9,7 @@ template.innerHTML = `
         <li><a href="https://github.com/heartbank"><img src="https://github.com/heartbank.png?size=100"></a></li>
         <li><a href="https://github.com/siliconwat"><img src="https://github.com/siliconwat.png?size=100"></a></li>
         <li><a href="https://github.com/thonlymetaverse"><img src="https://github.com/thonlymetaverse.png?size=100"></a></li>
-        <li><a href="https://github.com/nhiakou"><img src="https://github.com/nhiakou.png?size=100"></a></li>
+        <li><a href="https://github.com/333eco"><img src="https://github.com/333eco.png?size=100"></a></li>
     </ul>
 `;
 
